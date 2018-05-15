@@ -2,36 +2,31 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SolarSystem
+namespace AppendLetter
 {
-    public class SolarSystem
+    public class AppendLetter
     {
         public static void Main(string[] args)
         {
-            List<string> planetList = new List<string> { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Neptune" };
+            var far = new List<string> { "kuty", "macsk", "kacs", "rók", "halacsk" };
+            // Create a method called AppendA() that adds "a" to every string in the far list.
+            // The parameter should be a list.
 
-
-            // Saturn is missing from the planetList
-            // Insert it into the correct position
-            // Create a method called PutSaturn() which has list parameter and returns the correct list of planets as a string.
-
-            Console.WriteLine(PutSaturn(planetList));
-            // Expected output: "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Uranus", "Neptune", "Saturn"
-            Console.ReadLine();
+            Console.WriteLine(AppendA(far));
+            // Expected output: "kutya", "macska", "kacsa", "róka", "halacska"
         }
 
-        public static string PutSaturn (List<string> input)
+        public static string AppendA (List<string> input)
         {
-            input.Insert(5, "Saturn");
-            StringBuilder solarSystemBuilder = new StringBuilder();
-            foreach (string items in input)
+            
+            StringBuilder output = new StringBuilder();
+            foreach (string animalNames in input)
             {
-                solarSystemBuilder
-                    .Append(items)
-                    .Append(",\n");
+                output
+                    .Append(animalNames)
+                    .Append("a,\n");
             }
-            return solarSystemBuilder.ToString();
+            return output.ToString();
         }
-
     }
 }
