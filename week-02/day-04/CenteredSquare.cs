@@ -27,15 +27,14 @@ namespace DrawTest
 
             foxDraw.BackgroundColor(Colors.GhostWhite);
 
-            foxDraw.StrokeColor(Colors.Green);
-            foxDraw.DrawLine(0, 0, canvas.Width, canvas.Height );
+            int x = 10;
+            int y = 10;
 
-            foxDraw.StrokeColor(Colors.Red);
-            foxDraw.DrawLine(0, canvas.Height, canvas.Width, 0);
+            foxDraw.DrawRectangle(canvas.Width/2 - x/2, canvas.Height/2 - y/2, x, y);
 
 
-            // Draw the canvas' diagonals.
-            // If it starts from the upper-left corner it should be green, otherwise it should be red.
+            // Draw a green 10x10 square to the canvas' center.
         }
+
     }
 }

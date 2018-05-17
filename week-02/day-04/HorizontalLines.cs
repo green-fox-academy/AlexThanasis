@@ -27,15 +27,25 @@ namespace DrawTest
 
             foxDraw.BackgroundColor(Colors.GhostWhite);
 
-            foxDraw.StrokeColor(Colors.Green);
-            foxDraw.DrawLine(0, 0, canvas.Width, canvas.Height );
+            int x = 100;
+            int y = 100;
+                        
+            Drawing(foxDraw, x, y);
+               
+           // Create a line drawing function that takes 2 parameters:
+            // The x and y coordinates of the line's starting point
+            // and draws a 50 long horizontal line from that point.
+            // Draw 3 lines with that function. Use loop for that.
+        }
 
-            foxDraw.StrokeColor(Colors.Red);
-            foxDraw.DrawLine(0, canvas.Height, canvas.Width, 0);
-
-
-            // Draw the canvas' diagonals.
-            // If it starts from the upper-left corner it should be green, otherwise it should be red.
+        public static void Drawing(FoxDraw foxDraw, int x, int y)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                foxDraw.StrokeColor(Colors.Blue);
+                foxDraw.DrawLine(x, y += 50, x += 50, y);
+            }
+            
         }
     }
 }
