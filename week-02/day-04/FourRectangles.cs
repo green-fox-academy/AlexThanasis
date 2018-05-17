@@ -25,15 +25,28 @@ namespace DrawTest
             InitializeComponent();
             var foxDraw = new FoxDraw(canvas);
 
+            Random r = new Random();
+            
             foxDraw.BackgroundColor(Colors.GhostWhite);
+            int edge = 50;
+            int numOfRectangles = 4;
 
-            int x = 10;
-            int y = 10;
+            for (int i = 0; i < numOfRectangles; i++)
+            {
+                int x_coordinates = r.Next(edge, (int)canvas.Width - edge);
+                int y_coordinates = r.Next(edge, (int)canvas.Height - edge);
+                int recWidth = r.Next(20, 50);
+                int recHeight = r.Next(20, 50);
+               
+                Color randomColor = Color.FromRgb((byte)r.Next(255), (byte)r.Next(255), (byte)r.Next(255));
+                foxDraw.FillColor(randomColor);
+                foxDraw.DrawRectangle(x_coordinates, y_coordinates, recWidth, recHeight);
+            }
 
-            foxDraw.DrawRectangle(canvas.Width/2 - x/2, canvas.Height/2 - y/2, x, y);
 
+            // draw four different size and color rectangles.
+            // avoid code duplication.
 
-            // Draw a green 10x10 square to the canvas' center.
         }
 
     }
