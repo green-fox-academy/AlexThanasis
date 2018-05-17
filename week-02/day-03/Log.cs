@@ -58,5 +58,33 @@ namespace Logs
             return addresses.ToArray();
         }
 
+        public static double GetRatio(string input)
+        {
+            try
+            {
+                string lines = "";
+                StreamReader sr = new StreamReader(input);
+                while (lines != null)
+                {
+
+                    lines = sr.ReadLine();
+                    if (lines != null)
+                    {
+                        if (!addresses.Contains(lines.Substring(27, 11)))
+                        {
+                            addresses.Add(lines.Substring(27, 11));
+                        }
+
+                    }
+                }
+                sr.Dispose();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ooops, could not read the file");
+                Console.WriteLine(e.Message);
+            }
+        }
+
     }
 }
