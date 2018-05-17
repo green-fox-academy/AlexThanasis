@@ -37,15 +37,13 @@ namespace DrawTest
             int edge = 1;
             for (int i = 0; i < numberOfStars; i++)
             {
-                int x_coordinates = r.Next(edge, (int)canvas.Width - edge);
-                int y_coordinates = r.Next(edge, (int)canvas.Height - edge);
                 int randomSize = r.Next(1, 10);
                 byte grayColor = (byte)r.Next(255);
                 
                 Color randomColor = Color.FromRgb(grayColor, grayColor, grayColor);
                 foxDraw.FillColor(randomColor);
                 foxDraw.StrokeColor(randomColor);
-                foxDraw.DrawEllipse(x_coordinates, y_coordinates, randomSize, randomSize);
+                foxDraw.DrawEllipse(r.Next(edge, (int)canvas.Width - edge), r.Next(edge, (int)canvas.Height - edge), randomSize, randomSize);
 
             }
         }
