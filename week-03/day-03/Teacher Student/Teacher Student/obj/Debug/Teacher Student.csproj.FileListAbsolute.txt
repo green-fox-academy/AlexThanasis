@@ -1,0 +1,7 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\bin\Debug\Teacher Student.exe.config
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\bin\Debug\Teacher Student.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\bin\Debug\Teacher Student.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\obj\Debug\Teacher Student.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\obj\Debug\Teacher Student.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\obj\Debug\Teacher Student.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Teacher Student\Teacher Student\obj\Debug\Teacher Student.pdb
