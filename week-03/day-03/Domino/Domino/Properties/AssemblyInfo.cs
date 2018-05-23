@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("OOProgramBasics")]
+[assembly: AssemblyTitle("Domino")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OOProgramBasics")]
+[assembly: AssemblyProduct("Domino")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("06dfe5d7-cb90-4b18-a4a2-24b21023105d")]
+[assembly: Guid("41c11444-a63d-4c50-ac57-9f8e288e01ec")]
 
 // Version information for an assembly consists of the following four values:
 //

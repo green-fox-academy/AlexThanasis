@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace Domino
@@ -28,7 +29,7 @@ namespace Domino
             return dominoes;
         }
 
-        public static String OrderingTheDominos (List<Domino>input)
+        public static String OrderingTheDominos(List<Domino> input)
         {
             string dominoOrderedRow = "";
             List<Domino> tempDominos = new List<Domino>(input.Count);
@@ -41,8 +42,9 @@ namespace Domino
                     if (tempDominos[i].GetValues()[1] == input[j].GetValues()[0])
                     {
                         tempDominos.Add(input[j]);
+                        break;
                     }
-                    
+
                 }
                 dominoOrderedRow += " [" + tempDominos[i].GetValues()[0].ToString()
                    + ", " + tempDominos[i].GetValues()[1].ToString() + "] ";

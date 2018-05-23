@@ -1,7 +1,0 @@
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\bin\Debug\OOProgramBasics.exe.config
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\bin\Debug\OOProgramBasics.exe
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\bin\Debug\OOProgramBasics.pdb
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\obj\Debug\OOProgramBasics.csprojAssemblyReference.cache
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\obj\Debug\OOProgramBasics.csproj.CoreCompileInputs.cache
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\obj\Debug\OOProgramBasics.exe
-C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\OOProgramBasics\OOProgramBasics\obj\Debug\OOProgramBasics.pdb
