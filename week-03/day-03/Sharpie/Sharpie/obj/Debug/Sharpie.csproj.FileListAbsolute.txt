@@ -1,0 +1,7 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\bin\Debug\Sharpie.exe.config
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\bin\Debug\Sharpie.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\bin\Debug\Sharpie.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\obj\Debug\Sharpie.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\obj\Debug\Sharpie.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\obj\Debug\Sharpie.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Sharpie\Sharpie\obj\Debug\Sharpie.pdb

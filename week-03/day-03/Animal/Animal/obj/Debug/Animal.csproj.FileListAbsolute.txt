@@ -1,0 +1,6 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\obj\Debug\Animal.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\bin\Debug\Animal.exe.config
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\bin\Debug\Animal.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\bin\Debug\Animal.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\obj\Debug\Animal.exe
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Animal\Animal\obj\Debug\Animal.pdb
