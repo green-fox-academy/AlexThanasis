@@ -1,0 +1,15 @@
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\bin\Debug\DrawTest.exe.config
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\bin\Debug\DrawTest.exe
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\bin\Debug\DrawTest.pdb
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.csprojAssemblyReference.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\MainWindow.g.cs
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\App.g.cs
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest_MarkupCompile.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest_MarkupCompile.lref
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\MainWindow.baml
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.g.resources
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.csproj.CoreCompileInputs.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.exe
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawTest\DrawTest\obj\Debug\DrawTest.pdb
