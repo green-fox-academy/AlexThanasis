@@ -1,0 +1,15 @@
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.csprojAssemblyReference.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\MainWindow.g.cs
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\App.g.cs
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid_MarkupCompile.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid_MarkupCompile.lref
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\bin\Debug\DrawingSquareGrid.exe.config
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\bin\Debug\DrawingSquareGrid.exe
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\bin\Debug\DrawingSquareGrid.pdb
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\MainWindow.baml
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.g.resources
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.Properties.Resources.resources
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.csproj.GenerateResource.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.csproj.CoreCompileInputs.cache
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.exe
+c:\users\alex_gr\documents\visual studio 2017\Projects\DrawingSquareGrid\DrawingSquareGrid\obj\Debug\DrawingSquareGrid.pdb
