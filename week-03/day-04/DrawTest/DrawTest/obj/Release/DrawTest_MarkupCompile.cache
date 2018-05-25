@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-03\day-04\DrawTest\DrawTest\obj\Debug\
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-03\day-04\DrawTest\DrawTest\obj\Release\
 DrawTest
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-03\day-04\DrawTest\DrawTest\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-03\day-04\
 13581178305
 MainWindow.xaml;
 
-False
+True
 
