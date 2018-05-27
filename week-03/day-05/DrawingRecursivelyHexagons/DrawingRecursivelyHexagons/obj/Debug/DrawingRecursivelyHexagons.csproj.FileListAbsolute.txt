@@ -1,0 +1,15 @@
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\bin\Debug\DrawingRecursivelyHexagons.exe.config
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\bin\Debug\DrawingRecursivelyHexagons.exe
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\bin\Debug\DrawingRecursivelyHexagons.pdb
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.csprojAssemblyReference.cache
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\MainWindow.g.cs
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\App.g.cs
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons_MarkupCompile.cache
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons_MarkupCompile.lref
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\MainWindow.baml
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.g.resources
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.Properties.Resources.resources
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.csproj.GenerateResource.cache
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.exe
+C:\Users\Alex_GR\documents\visual studio 2017\Projects\DrawingRecursivelyHexagons\DrawingRecursivelyHexagons\obj\Debug\DrawingRecursivelyHexagons.pdb
