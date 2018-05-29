@@ -25,6 +25,7 @@ namespace garden_app
 
         public static void WateringTheGarden(float waterAmount)
         {
+            int plantAreThirsty = GetHowManyThirstyPlants();
             foreach (var plant in trees)
             {
                 plant.Watering(waterAmount);
@@ -35,5 +36,25 @@ namespace garden_app
             }
 
         }
+        public static int GetHowManyThirstyPlants()
+        {
+            int counter = 0;
+            foreach (var plant in trees)
+            {
+                if (plant.NeedWater)
+                {
+                    counter++;
+                }
+            }
+            foreach (var plant in trees)
+            {
+                if (plant.NeedWater)
+                {
+                    counter++;
+                }
+            }
+            return counter;
+        }   
     }
 }
+

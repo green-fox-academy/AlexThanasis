@@ -26,5 +26,13 @@ namespace garden_app
         {
             waterAmount += amount * waterAsorbationLevel;
         }
+
+        public bool NeedWater
+        {
+            get
+            {
+                return needWater;
+            }
+        }
     }
 }
