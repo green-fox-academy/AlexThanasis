@@ -8,15 +8,31 @@ namespace garden_app
     {
         private string color;
         private int waterAmmount;
-        protected bool needToWater;
+        protected bool needWater;
 
-        public Plant(string color, int waterAmmount, bool needToWater)
+        public Plant(string color, int waterAmmount, bool needWater)
         {
             this.color = color;
             this.waterAmmount = waterAmmount;
-            this.needToWater = needToWater;
+            this.needWater = needWater;
         }
-        
 
+        public string Color
+        {
+            get
+            {
+                return color;
+            }
+        }
+
+        public int WaterAmount
+        {
+            get
+            {
+                return waterAmmount;
+            }
+        }
+
+        
     }
 }
