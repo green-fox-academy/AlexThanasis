@@ -6,7 +6,8 @@ namespace garden_app
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var garden = new Garden();
+
         }
     }
 }
