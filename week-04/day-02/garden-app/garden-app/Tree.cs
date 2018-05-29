@@ -8,11 +8,13 @@ namespace garden_app
     {
         private float waterAsorbationLevel = 0.4f;
 
-        public Tree(string color, int waterAmmount, bool needWater) : base(color, waterAmmount, needWater)
+        public Tree(string color, float waterAmount, bool needWater) : base(color, waterAmount, needWater)
         {
-            color = this.Color;
-            waterAmmount = this.WaterAmount;
-            if (waterAmmount < 10)
+            color = this.color;
+            this.waterAmount = waterAmount;
+            waterAsorbationLevel = 0.4f;
+            this.waterNecessity = 10;
+            if (waterAmount < waterNecessity)
             {
                 needWater = true;
             }
@@ -22,9 +24,10 @@ namespace garden_app
             }
         }
 
-        public float Watering(int amount)
+        public void Watering(float amount)
         {
-            return amount * waterAsorbationLevel;
+            waterAmount = amount * waterAsorbationLevel;
         }
+        
     }
 }

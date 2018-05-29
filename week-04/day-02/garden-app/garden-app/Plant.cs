@@ -6,33 +6,31 @@ namespace garden_app
 {
     class Plant
     {
-        private string color;
-        private int waterAmmount;
+        protected string color;
+        protected float waterAmount;
         protected bool needWater;
+        protected float waterAsorbationLevel;
+        protected float waterNecessity;
 
-        public Plant(string color, int waterAmmount, bool needWater)
+        public Plant(string color, float waterAmount, float waterNecessity)
         {
             this.color = color;
-            this.waterAmmount = waterAmmount;
-            this.needWater = needWater;
-        }
-
-        public string Color
-        {
-            get
+            this.waterAmount = waterAmount;
+            if (waterAmount < this.waterNecessity)
             {
-                return color;
+                needWater = true;
             }
-        }
-
-        public int WaterAmount
-        {
-            get
+            else
             {
-                return waterAmmount;
+                needWater = false;
             }
-        }
 
-        
+        }
+        public Plant()
+        {
+            color = "green";
+            waterAmount = 40;
+            needWater = false;
+        }
     }
 }
