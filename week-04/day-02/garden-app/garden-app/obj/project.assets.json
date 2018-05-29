@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\green-fox\\green-fox\\green-fox.csproj",
-      "projectName": "green-fox",
-      "projectPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\green-fox\\green-fox\\green-fox.csproj",
+      "projectUniqueName": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\garden-app\\garden-app\\garden-app.csproj",
+      "projectName": "garden-app",
+      "projectPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\garden-app\\garden-app\\garden-app.csproj",
       "packagesPath": "C:\\Users\\Alex_GR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\green-fox\\green-fox\\obj\\",
+      "outputPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-04\\day-02\\garden-app\\garden-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
