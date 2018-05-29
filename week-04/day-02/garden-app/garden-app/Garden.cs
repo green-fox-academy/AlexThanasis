@@ -13,30 +13,32 @@ namespace garden_app
             
         }
 
-        public void PlantTree(Tree tree)
+        public void PlantTree(string color, float waterAmount)
         {
+            Tree tree = new Tree(color, waterAmount);
             trees.Add(tree) ;
         }
 
-        public void PlantFlower(Flower flower)
+        public void PlantFlower(string color, float waterAmount)
         {
+            Flower flower = new Flower(color, waterAmount);
             flowers.Add(flower);
         }
 
         public static void WateringTheGarden(float waterAmount)
         {
-            int plantAreThirsty = GetHowManyThirstyPlants();
             foreach (var plant in trees)
             {
+                waterAmount /= GetHowManyThirstyTrees();
                 plant.Watering(waterAmount);
             }
             foreach (var plant in flowers)
             {
+                waterAmount /= GetHowManyThirstyTrees();
                 plant.Watering(waterAmount);
             }
-
         }
-        public static int GetHowManyThirstyPlants()
+        public static int GetHowManyThirstyTrees()
         {
             int counter = 0;
             foreach (var plant in trees)
@@ -46,7 +48,12 @@ namespace garden_app
                     counter++;
                 }
             }
-            foreach (var plant in trees)
+            return counter;
+        }
+        public static int GetHowManyThirstyFlowers()
+        {
+            int counter = 0;
+            foreach (var plant in flowers)
             {
                 if (plant.NeedWater)
                 {
@@ -54,7 +61,13 @@ namespace garden_app
                 }
             }
             return counter;
-        }   
+        }
+        public string PrintHowManyThirstyPlants()
+        {
+            int flowersNeedWater = GetHowManyThirstyFlowers();
+            int treesNeedWater = GetHowManyThirstyTrees();
+            return flowersNeedWater + " flower(s) and " +  treesNeedWater + " tree(s) are thirsty";
+        }      
     }
 }
 

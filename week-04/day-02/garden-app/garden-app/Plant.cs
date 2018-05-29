@@ -24,7 +24,6 @@ namespace garden_app
             {
                 needWater = false;
             }
-
         }
         public Plant()
         {

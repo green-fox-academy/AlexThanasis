@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\bin\Debug\netcoreapp2.0\garden-app.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\bin\Debug\netcoreapp2.0\garden-app.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\bin\Debug\netcoreapp2.0\garden-app.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\bin\Debug\netcoreapp2.0\garden-app.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\bin\Debug\netcoreapp2.0\garden-app.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-04\day-02\garden-app\garden-app\obj\Debug\netcoreapp2.0\garden-app.pdb
