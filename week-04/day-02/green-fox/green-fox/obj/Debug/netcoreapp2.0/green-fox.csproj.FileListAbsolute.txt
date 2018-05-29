@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\bin\Debug\netcoreapp2.0\green-fox.deps.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\bin\Debug\netcoreapp2.0\green-fox.runtimeconfig.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\bin\Debug\netcoreapp2.0\green-fox.runtimeconfig.dev.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\bin\Debug\netcoreapp2.0\green-fox.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\bin\Debug\netcoreapp2.0\green-fox.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.AssemblyInfo.cs
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\green-fox\green-fox\obj\Debug\netcoreapp2.0\green-fox.pdb
