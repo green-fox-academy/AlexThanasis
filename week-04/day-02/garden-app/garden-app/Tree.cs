@@ -6,14 +6,12 @@ namespace garden_app
 {
     class Tree : Plant
     {
-        private float waterAsorbationLevel = 0.4f;
-
-        public Tree(string color, float waterAmount, bool needWater) : base(color, waterAmount, needWater)
+        public Tree(string color, float waterAmount) 
         {
             color = this.color;
             this.waterAmount = waterAmount;
             waterAsorbationLevel = 0.4f;
-            this.waterNecessity = 10;
+            waterNecessity = 10;
             if (waterAmount < waterNecessity)
             {
                 needWater = true;
@@ -26,7 +24,7 @@ namespace garden_app
 
         public void Watering(float amount)
         {
-            waterAmount = amount * waterAsorbationLevel;
+            waterAmount += amount * waterAsorbationLevel;
         }
         
     }
