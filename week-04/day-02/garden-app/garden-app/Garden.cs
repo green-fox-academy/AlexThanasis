@@ -67,7 +67,19 @@ namespace garden_app
             int flowersNeedWater = GetHowManyThirstyFlowers();
             int treesNeedWater = GetHowManyThirstyTrees();
             return flowersNeedWater + " flower(s) and " +  treesNeedWater + " tree(s) are thirsty";
-        }      
+        }
+
+        public void DaysHasPassed(int day)
+        {
+            foreach (var plant in trees)
+            {
+                plant.WaterAmount -= day * 2;
+            }
+            foreach (var plant in flowers)
+            {
+                plant.WaterAmount -= day * 2;
+            }
+        }
     }
 }
 

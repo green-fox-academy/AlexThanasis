@@ -10,9 +10,14 @@ namespace garden_app
             garden.PlantFlower("yellow", 20);
             garden.PlantFlower("blue", 10);
             garden.PlantTree("purple", 20);
-            garden.PlantTree("orange", 5);
+            garden.PlantTree("orange", 10);
 
             Console.WriteLine(garden.PrintHowManyThirstyPlants());
+
+            garden.DaysHasPassed(3);
+
+            Console.WriteLine(garden.PrintHowManyThirstyPlants());
+
             Console.ReadLine();
         }
     }

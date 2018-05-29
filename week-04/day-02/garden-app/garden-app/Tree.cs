@@ -35,5 +35,17 @@ namespace garden_app
             }
         }
 
+        public float WaterAmount
+        {
+            get
+            {
+                return waterAmount;
+            }
+            set
+            {
+                waterAmount = value;
+            }
+        }
+
     }
 }
