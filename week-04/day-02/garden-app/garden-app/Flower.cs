@@ -22,6 +22,9 @@ namespace garden_app
             }
         }
 
-
+        public float Watering(int amount)
+        {
+            return amount * waterAsorbationLevel;
+        }
     }
 }
