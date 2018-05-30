@@ -6,9 +6,9 @@ namespace green_fox
 {
     class Cohort
     {
-        private string name;
-        private List<Student> students = new List<Student>();
-        private List<Mentor> mentors = new List<Mentor>();
+        public string name;
+        public List<Student> students = new List<Student>();
+        public List<Mentor> mentors = new List<Mentor>();
 
         public Cohort(string name)
         {

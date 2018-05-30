@@ -6,8 +6,8 @@ namespace green_fox
 {
     class Student : Person, ICloneable
     {
-        private string previousOrganization;
-        private int skippedDays;
+        public string previousOrganization;
+        public int skippedDays;
 
         public Student(string name, int age, string gender, string previousOrganization)
         {
@@ -42,13 +42,15 @@ namespace green_fox
             return skippedDays += numberOfDays;
         }
 
-        public void Clone()
+        public object Clone()
         {
-                name = "John";
-                age = 20;
-                gender = "male";
-                previousOrganization = "BME";
-                skippedDays = 0;
+            name = "John";
+            age = 20;
+            gender = "male";
+            previousOrganization = "BME";
+            skippedDays = 0;
+
+            return this.MemberwiseClone();
         }
     }
 }

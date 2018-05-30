@@ -6,7 +6,7 @@ namespace green_fox
 {
     class Mentor : Person
     {
-        private string level;
+        public string level;
 
         public Mentor(string name, int age, string gender, string level)
         {

@@ -6,8 +6,8 @@ namespace green_fox
 {
     class Sponsor : Person
     {
-        private string company;
-        private int hiredStudents;
+        public string company;
+        public int hiredStudents;
 
         public Sponsor(string name, int age, string gender, string company)
         {
