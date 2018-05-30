@@ -7,17 +7,22 @@ namespace garden_app
         static void Main(string[] args)
         {
             var garden = new Garden();
-            garden.PlantFlower("yellow", 20);
-            garden.PlantFlower("blue", 10);
-            garden.PlantTree("purple", 20);
-            garden.PlantTree("orange", 10);
+            garden.PlantFlower("yellow", 4);
+            garden.PlantFlower("blue", 8);
+            garden.PlantTree("purple", 4);
+            garden.PlantTree("orange", 20);
 
             Console.WriteLine(garden.PrintHowManyThirstyPlants());
 
-            garden.DaysHasPassed(3);
+            garden.DaysHasPassed(4);
+            Console.WriteLine();
 
             Console.WriteLine(garden.PrintHowManyThirstyPlants());
+            Console.WriteLine( );
+            
 
+            garden.WateringTheGarden(20);
+            Console.WriteLine(garden.PrintHowManyThirstyPlants());
             Console.ReadLine();
         }
     }

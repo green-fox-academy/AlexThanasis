@@ -25,17 +25,16 @@ namespace garden_app
             flowers.Add(flower);
         }
 
-        public static void WateringTheGarden(float waterAmount)
+        public void WateringTheGarden(float waterAmount)
         {
-            foreach (var plant in trees)
-            {
-                waterAmount /= GetHowManyThirstyTrees();
-                plant.Watering(waterAmount);
-            }
+            float waterPerPlant = waterAmount / GetHowManyThirstyTrees();
             foreach (var plant in flowers)
             {
-                waterAmount /= GetHowManyThirstyTrees();
-                plant.Watering(waterAmount);
+                plant.Watering(waterPerPlant);
+            }
+            foreach (var tree in trees)
+            {
+                tree.Watering(waterPerPlant);
             }
         }
         public static int GetHowManyThirstyTrees()
@@ -73,13 +72,21 @@ namespace garden_app
         {
             foreach (var plant in trees)
             {
-                plant.WaterAmount -= day * 2;
+                plant.WaterAmount -= (float)day;
+                Console.WriteLine(day);
+                Console.WriteLine(plant.WaterAmount);
             }
             foreach (var plant in flowers)
             {
-                plant.WaterAmount -= day * 2;
+                plant.WaterAmount -= (float)day;
+                Console.WriteLine(day);
+                Console.WriteLine(plant.WaterAmount);
             }
+        }
+
+        public void PrintInfo()
+        {
+
         }
     }
 }
-

@@ -6,13 +6,19 @@ namespace garden_app
 {
     class Plant
     {
-        protected string color;
-        protected float waterAmount;
-        protected bool needWater;
-        protected float waterAsorbationLevel;
-        protected float waterNecessity;
+        private string color;
+        private float waterAmount;
+        private bool needWater;
+        private float waterAsorbationLevel;
+        private float waterNecessity;
 
-        public Plant(string color, float waterAmount, float waterNecessity)
+        public string Color { get => color; set => color = value; }
+        public float WaterAmount { get => waterAmount; set => waterAmount = value; }
+        public bool NeedWater { get => needWater; set => needWater = value; }
+        public float WaterAsorbationLevel { get => waterAsorbationLevel; set => waterAsorbationLevel = value; }
+        public float WaterNecessity { get => waterNecessity; set => waterNecessity = value; }
+
+        public Plant(string color, float waterAmount)
         {
             this.color = color;
             this.waterAmount = waterAmount;
@@ -25,6 +31,7 @@ namespace garden_app
                 needWater = false;
             }
         }
+
         public Plant()
         {
             color = "green";

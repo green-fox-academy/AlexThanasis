@@ -6,46 +6,25 @@ namespace garden_app
 {
     class Tree : Plant
     {
-        public Tree(string color, float waterAmount) 
+        public Tree(string color, float waterAmount) : base(color, waterAmount)
         {
-            color = this.color;
-            this.waterAmount = waterAmount;
-            waterAsorbationLevel = 0.4f;
-            waterNecessity = 10;
-            if (waterAmount < waterNecessity)
+            this.Color = color;
+            this.WaterAmount = waterAmount;
+            this.WaterAsorbationLevel = 0.4f;
+            this.WaterNecessity = 10;
+            if (waterAmount < WaterNecessity)
             {
-                needWater = true;
+                NeedWater = true;
             }
             else
             {
-                needWater = false;
+                NeedWater = false;
             }
         }
 
         public void Watering(float amount)
         {
-            waterAmount += amount * waterAsorbationLevel;
+            WaterAmount += amount * WaterAsorbationLevel;
         }
-
-        public bool NeedWater
-        {
-            get
-            {
-                return needWater;
-            }
-        }
-
-        public float WaterAmount
-        {
-            get
-            {
-                return waterAmount;
-            }
-            set
-            {
-                waterAmount = value;
-            }
-        }
-
     }
 }
