@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\bin\Debug\netcoreapp2.0\Zoo.deps.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\bin\Debug\netcoreapp2.0\Zoo.runtimeconfig.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\bin\Debug\netcoreapp2.0\Zoo.runtimeconfig.dev.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\bin\Debug\netcoreapp2.0\Zoo.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\bin\Debug\netcoreapp2.0\Zoo.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.AssemblyInfo.cs
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\Zoo\Zoo\obj\Debug\netcoreapp2.0\Zoo.pdb
