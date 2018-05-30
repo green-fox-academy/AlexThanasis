@@ -21,8 +21,11 @@ namespace garden_app
             Console.WriteLine( );
             
 
-            garden.WateringTheGarden(20);
+            garden.WateringTheGarden(20f);
             Console.WriteLine(garden.PrintHowManyThirstyPlants());
+
+            garden.PrintInfo();
+
             Console.ReadLine();
         }
     }

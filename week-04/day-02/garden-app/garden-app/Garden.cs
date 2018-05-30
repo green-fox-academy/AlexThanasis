@@ -25,19 +25,22 @@ namespace garden_app
             flowers.Add(flower);
         }
 
-        public void WateringTheGarden(float waterAmount)
+        public void WateringTheGarden(float waterForTheGraden)
         {
-            float waterPerPlant = waterAmount / GetHowManyThirstyTrees();
+            float waterPerPlant = waterForTheGraden / GetHowManyThirstyPlants();
+            Console.WriteLine("azt a qrva nyácskád " + GetHowManyThirstyPlants());
             foreach (var plant in flowers)
             {
                 plant.Watering(waterPerPlant);
+                Console.WriteLine("the flowers: " + waterPerPlant);
             }
             foreach (var tree in trees)
             {
                 tree.Watering(waterPerPlant);
+                Console.WriteLine("the tree: " + waterPerPlant);
             }
         }
-        public static int GetHowManyThirstyTrees()
+        public static int GetHowManyThirstyPlants()
         {
             int counter = 0;
             foreach (var plant in trees)
@@ -47,8 +50,16 @@ namespace garden_app
                     counter++;
                 }
             }
+            foreach (var plant in flowers)
+            {
+                if (plant.NeedWater)
+                {
+                    counter++;
+                }
+            }
             return counter;
         }
+
         public static int GetHowManyThirstyFlowers()
         {
             int counter = 0;
@@ -61,6 +72,20 @@ namespace garden_app
             }
             return counter;
         }
+
+        public static int GetHowManyThirstyTrees()
+        {
+            int counter = 0;
+            foreach (var plant in trees)
+            {
+                if (plant.NeedWater)
+                {
+                    counter++;
+                }
+            }
+            return counter;
+        }
+
         public string PrintHowManyThirstyPlants()
         {
             int flowersNeedWater = GetHowManyThirstyFlowers();
@@ -86,7 +111,11 @@ namespace garden_app
 
         public void PrintInfo()
         {
-
+            foreach (var item in flowers)
+            {
+                Console.WriteLine(   item.WaterAmount);
+            }
+            Console.WriteLine(PrintHowManyThirstyPlants());
         }
     }
 }
