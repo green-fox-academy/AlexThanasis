@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\bin\Debug\netcoreapp2.0\GardenApp.deps.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\bin\Debug\netcoreapp2.0\GardenApp.runtimeconfig.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\bin\Debug\netcoreapp2.0\GardenApp.runtimeconfig.dev.json
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\bin\Debug\netcoreapp2.0\GardenApp.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\bin\Debug\netcoreapp2.0\GardenApp.pdb
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.AssemblyInfo.cs
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.dll
+C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\GardenApp\GardenApp\obj\Debug\netcoreapp2.0\GardenApp.pdb
