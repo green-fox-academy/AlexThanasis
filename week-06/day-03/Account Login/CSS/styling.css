@@ -1,0 +1,57 @@
+body {
+  background: lightgrey;
+  padding: 50px;
+}
+
+#accountbox{
+  background: #ffffff;
+  width: 300px;
+  height: 300px;
+  font-family: calibri;
+  color: #606060;  
+  padding: 50px;
+  border: none;
+}
+
+#titleofbox{
+  font-size: 24px;
+}
+
+#reminder {
+  font-size: 11px
+  
+}
+
+label {
+  font-size: 10px;
+  font-weight: bold;
+  display:inline-block;
+  float: top;
+  text-align: right;
+}
+
+input{
+  display:inline-block;
+  width: 280px;
+  padding: 10px;
+}
+input[type="email"] {
+  border: 1px solid green;
+}
+input[type="text"]{
+  border: 1px solid lightgray;
+}
+
+input[type="button"]{
+  width: 100px;
+  border-radius: 20px;
+  background: #303030;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 10.5px;
+  float: left;
+}
+
+#reminder{
+  text-align: right;
+}
