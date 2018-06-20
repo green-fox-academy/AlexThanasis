@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="css/styling.css">
+  <script>
+    var inputPassword = document.getElementById("password");
+var repeatPassword = document.getElementById("passwordretype");
+
+function TestPasswordIsTheSame(inputPassword, repeatPassword){
+  if(inputPassword != repeatPassword){
+    Alert("Passwords doesn't match, please try again!")
+  }
+}
+  </script>
+</head>
+  <body>
+    <fieldset id="signupbox">
+      <div class="row">
+       <div class="column left">
+        <p id="titleofbox">Sign up</p>
+         <form action="https://newsletter-ws.herokuapp.com/register" method= "post">
+        <label for="username"></label>
+         <input type="text" id="username" placeholder="Username" autofocus required>
+        <label for="e-mail"></label></br>
+        <input type="email" id="e-mail" placeholder="E-mail" required></br>
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Password" required> </br>
+        <label for="passwordretype"></label>
+        <input type="password" id="passwordretype" placeholder="Retype password" required></br>
+        <input type="button" id="signmeup" value="SIGN ME UP" onclick="TestPasswordIsTheSame()">
+      </form>
+    </div>
+  <div class="column middle">
+    <p id="styliORinthemiddle">OR</p>
+</div>
+<div class="column right">
+  <input type="button" id="buttonfb" value="Login with facebook" onclick="window.location.href='https://hu-hu.facebook.com'" />
+  <input type="button" id="buttontwitter" value="Login with Twitter" onclick="window.location.href='https://twitter.com/?lang=hu'">
+  <input type="button" id="buttongoogle" value="Login with Google+" onclick="window.location.href='https://plus.google.com/''">
+</div>
+</div>
+</fieldset>
+</body>
+</html>

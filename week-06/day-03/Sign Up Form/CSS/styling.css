@@ -1,0 +1,133 @@
+body {
+  background: lightgrey;
+  padding: 50px;
+}
+
+.column{
+  float: left;
+}
+
+.left, .right {
+  width: 45%;
+}
+
+.middle {
+  width: 10%;
+}
+
+.right{
+  margin-top: 140px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#signupbox{
+  background: #ffffff;
+  width: 850px;
+  height: 600px;
+  font-family: kalinga;
+  color: #606060;  
+  padding: 50px;
+  border: 1px solid grey;
+}
+
+#titleofbox{
+  font-size: 42px;
+}
+
+#reminder {
+  font-size: 11px
+  
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  display:inline-block;
+  float: top;
+  text-align: right;
+}
+
+input{
+  display:inline-block;
+  width: 280px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  margin: 20px;  
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  border-bottom: 1px solid lightgray;
+}
+
+#username {
+  border-bottom: 2px solid lightgreen;
+}
+
+input[type="button"]{
+  width: 100px;
+  border-radius: 20px;
+  background: #303030;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 10.5px;
+  float: right;
+}
+
+#signmeup{
+  width: 150px;
+  height: 50px;
+  border-radius: 2px;
+  background: #00af80;
+  color: #ffffff;
+  font-family: kalinga;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 17px;
+  float: left;
+}
+
+#styliORinthemiddle {
+  margin-top: 250px;
+  font-size: 25px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  border-radius: 50px;
+  background: lightgrey;
+  position: relative;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+
+.right input[type="button"]{
+ 
+  width: 300px;
+  height: 50px;
+  border-radius: 2px;
+  background: #00af80;
+  color: #ffffff;
+  font-family: kalinga;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  
+}
+
+#buttonfb{
+  background: #3030ff
+}
+
+#buttontwitter{
+  background: #7070ff
+}
+
+#buttongoogle{
+  background: #cb4444
+}
