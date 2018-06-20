@@ -4,13 +4,15 @@
   <title>Sign Up Form</title>
   <link rel="stylesheet" href="css/styling.css">
   <script>
-    var inputPassword = document.getElementById("password");
-var repeatPassword = document.getElementById("passwordretype");
+    var inputPassword = document.getElementById("password").value;
+var repeatPassword = document.getElementById("passwordretype").value;
 
 function TestPasswordIsTheSame(inputPassword, repeatPassword){
   if(inputPassword != repeatPassword){
-    Alert("Passwords doesn't match, please try again!")
+    alert("Passwords doesn't match, please try again!");
   }
+  else{alert("Passwords match!");
+      }
 }
   </script>
 </head>
