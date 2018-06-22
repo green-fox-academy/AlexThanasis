@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\bin\Debug\netcoreapp2.0\TODO.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\bin\Debug\netcoreapp2.0\TODO.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\bin\Debug\netcoreapp2.0\TODO.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\bin\Debug\netcoreapp2.0\TODO.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\bin\Debug\netcoreapp2.0\TODO.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-06\day-04\TODO\TODO\obj\Debug\netcoreapp2.0\TODO.pdb

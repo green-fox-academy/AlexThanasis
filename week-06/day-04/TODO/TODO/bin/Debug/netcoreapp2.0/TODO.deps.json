@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "83ba0e2f6a0091d3a71c790123b8549af1dfafca"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TODO/1.0.0": {
+        "dependencies": {
+          "System.Data.SQLite": "1.0.108",
+          "System.Data.SQLite.Core": "1.0.108",
+          "System.Data.SQLite.EF6": "1.0.108",
+          "System.Data.SQLite.Linq": "1.0.108"
+        },
+        "runtime": {
+          "TODO.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.108": {},
+      "System.Data.SQLite.Core/1.0.108": {
+        "runtime": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.108": {
+        "runtime": {
+          "lib/net46/System.Data.SQLite.EF6.dll": {}
+        }
+      },
+      "System.Data.SQLite.Linq/1.0.108": {
+        "runtime": {
+          "lib/net46/System.Data.SQLite.Linq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TODO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SQLite/1.0.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QIh+GB+erDrvVIbEpEfVRF1U9fJOwmZCRyAPISDwmt8xn3vilM2xjEjr6hQBTI4a2uPxsn6cihT9BJwXAnM8eQ==",
+      "path": "system.data.sqlite/1.0.108",
+      "hashPath": "system.data.sqlite.1.0.108.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BwfMIy9q4OBRCKlAPMOfu2SuVm/5sfHHCqIWqT9n3U4ytmv9vXSXIkpntmYACBbwcTFh1tqcoJPSLKFOsD5ruA==",
+      "path": "system.data.sqlite.core/1.0.108",
+      "hashPath": "system.data.sqlite.core.1.0.108.nupkg.sha512"
+    },
+    "System.Data.SQLite.EF6/1.0.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JVyfjN3Uv7Qizm0cqsD8UKSgAGUMjFBl3RClyjRayA8uJhp05v4XrLKHoj5uNgKoFiueTRMKeiLbYI0LtMwlSQ==",
+      "path": "system.data.sqlite.ef6/1.0.108",
+      "hashPath": "system.data.sqlite.ef6.1.0.108.nupkg.sha512"
+    },
+    "System.Data.SQLite.Linq/1.0.108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8ZGyO3j4SxrmLXtgLUUpQEngOhJ+UxQxdU5jw9bzY4cLf8uuOWLnhM37AuE2qqERl8F3Cu4vzxceN7JvoPD8A==",
+      "path": "system.data.sqlite.linq/1.0.108",
+      "hashPath": "system.data.sqlite.linq.1.0.108.nupkg.sha512"
+    }
+  }
+}
