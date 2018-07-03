@@ -20,9 +20,9 @@ namespace garden_app
 
         public Plant(string color, float waterAmount)
         {
-            this.color = color;
-            this.waterAmount = waterAmount;
-            if (waterAmount < this.waterNecessity)
+            Color = color;
+            WaterAmount = waterAmount;
+            if (waterAmount < WaterNecessity)
             {
                 needWater = true;
             }
@@ -34,9 +34,9 @@ namespace garden_app
 
         public Plant()
         {
-            color = "green";
-            waterAmount = 40;
-            needWater = false;
+            Color = "green";
+            WaterAmount = 40;
+            NeedWater = false;
         }
     }
 }

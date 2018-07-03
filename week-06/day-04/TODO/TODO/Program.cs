@@ -13,26 +13,34 @@ namespace TODO
             PrintIntro();
             Database databaseObject = new Database();
             string argsFromConsoleReadline = Console.ReadLine();
-            Database.Adding("kvét venni", databaseObject);
             string[] commandInputs = argsFromConsoleReadline.Split(",");
-            string[] commands = { "-a", "-m", "-l", "-r", "-c", "-e" };
+            Console.WriteLine(commandInputs.Length);
+            string[] commands = { "-a", "-l", "-r", "-c", "-e" };
             for (int i = 0; i < commandInputs.Length; i++)
             {
-                if (commandInputs[i].Contains("-a"))
-                {
-                    Database.Adding(commandInputs[i + 1], databaseObject);
-                }
-                if (commandInputs[i].Contains("-r"))
-                {
-                    Database.Removing(Int32.Parse(commandInputs[i + 1].Trim()), databaseObject);
-                }
-                if (commandInputs[i].Contains("-c"))
-                {
-                    Database.Removing(Int32.Parse(commandInputs[i + 1].Trim()), databaseObject);
-                }
+                Console.WriteLine(commandInputs[i]);
                 if (commands.Any(element => element.Equals(commandInputs[i])))
                 {
-                    CommandFinder(commandInputs[i], databaseObject);
+                    if (commandInputs[i].Contains("-a"))
+                    {
+                        Database.Adding(commandInputs[i + 1], databaseObject);
+                    }
+                    if (commandInputs[i].Contains("-r"))
+                    {
+                        Database.Removing(Int32.Parse(commandInputs[i + 1].Trim()), databaseObject);
+                    }
+                    if (commandInputs[i].Contains("-c"))
+                    {
+                        Database.Complete(Int32.Parse(commandInputs[i + 1].Trim()), databaseObject);
+                    }
+                    if (commandInputs[i].Contains("-e"))
+                    {
+                        Database.Clear(databaseObject);
+                    }
+                    if (commandInputs[i].Contains("-l"))
+                    {
+                        Database.Loading(databaseObject);
+                    }
                 }
             }
             Console.ReadLine();
@@ -44,13 +52,6 @@ namespace TODO
             string printIntroContent = File.ReadAllText(path);
             Console.WriteLine(printIntroContent);
         }
-
-        public static void CommandFinder(string input, Database inputdb)
-        {
-            if (input.Equals("-l"))
-            {
-                Database.Loading(inputdb);
-            }
-        }
+        
     }
 }

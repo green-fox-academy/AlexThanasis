@@ -8,10 +8,10 @@ namespace garden_app
     {
         public Tree(string color, float waterAmount) : base(color, waterAmount)
         {
-            this.Color = color;
-            this.WaterAmount = waterAmount;
-            this.WaterAsorbationLevel = 0.4f;
-            this.WaterNecessity = 10;
+            Color = color;
+            WaterAmount = waterAmount;
+            WaterAsorbationLevel = 0.4f;
+            WaterNecessity = 10;
             if (waterAmount < WaterNecessity)
             {
                 NeedWater = true;

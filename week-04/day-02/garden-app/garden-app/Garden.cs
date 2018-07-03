@@ -43,14 +43,14 @@ namespace garden_app
         public static int GetHowManyThirstyPlants()
         {
             int counter = 0;
-            foreach (var plant in trees)
+            foreach (var plant in flowers)
             {
                 if (plant.NeedWater)
                 {
                     counter++;
                 }
             }
-            foreach (var plant in flowers)
+            foreach (var plant in trees)
             {
                 if (plant.NeedWater)
                 {
@@ -95,17 +95,33 @@ namespace garden_app
 
         public void DaysHasPassed(int day)
         {
-            foreach (var plant in trees)
-            {
-                plant.WaterAmount -= (float)day;
-                Console.WriteLine(day);
-                Console.WriteLine(plant.WaterAmount);
-            }
             foreach (var plant in flowers)
             {
+                Console.WriteLine("How many water amount: before " + plant.WaterAmount);
+                Console.WriteLine(plant.Color);
+                Console.WriteLine("is it thirsty? " + plant.NeedWater);
                 plant.WaterAmount -= (float)day;
-                Console.WriteLine(day);
-                Console.WriteLine(plant.WaterAmount);
+                if (plant.WaterAmount < plant.WaterNecessity)
+                {
+                    plant.NeedWater = false;
+                }
+                Console.WriteLine("How many days: " + day);
+                Console.WriteLine("How many water amount: " + plant.WaterAmount);
+                Console.WriteLine("is it thirsty now? " + plant.NeedWater);
+            }
+            foreach (var plant in trees)
+            {
+                Console.WriteLine("How many water amount before: " + plant.WaterAmount);
+                Console.WriteLine(plant.Color);
+                Console.WriteLine("is it thirsty? " + plant.NeedWater );
+                plant.WaterAmount -= (float)day;
+                if (plant.WaterAmount < plant.WaterNecessity)
+                {
+                    plant.NeedWater = true;
+                }
+                Console.WriteLine("How many days: "+ day);
+                Console.WriteLine("How many water amount: " + plant.WaterAmount);
+                Console.WriteLine("is it thirsty now? " + plant.NeedWater);
             }
         }
 
@@ -113,7 +129,8 @@ namespace garden_app
         {
             foreach (var item in flowers)
             {
-                Console.WriteLine(   item.WaterAmount);
+                Console.WriteLine("wtf: " + item.WaterAmount);
+                Console.WriteLine(item.NeedWater);
             }
             Console.WriteLine(PrintHowManyThirstyPlants());
         }
