@@ -1,0 +1,11 @@
+﻿@model BankAccount
+<h2>Simba</h2>
+
+<p>Name:</p>
+<p>@Model.Name</p>
+
+<p>Balance:</p>
+<p>@Model.Balance.ToString("n2") @Model.AnimalType.Substring(Model.AnimalType.IndexOf(".") + 1)</p>
+
+<p>Animal type:</p>
+<p>@Model.AnimalType</p>

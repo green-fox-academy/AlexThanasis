@@ -1,0 +1,122 @@
+﻿@model AccountsOfTheBank
+
+<style>
+    body {
+        color: darkgray;
+        font-family: Verdana;
+        font-size: 10px;
+    }
+
+    table {
+        border-spacing: 0.5rem;
+        font-family: Calibri;
+        border-collapse: collapse;
+        border-radius: 2px;
+    }
+
+    th {
+        background: #0f0f0f;
+        color: #9f9f9f;
+        padding: 2rem;
+        text-align: left;
+        font-size: 32px;
+        border-bottom: 5px solid gray;
+    }
+
+    #month {
+        width: 300px;
+        border-right: 1px solid gray;
+    }
+
+    #idnum {
+        font-size: 20px;
+        width: 80px;
+        border-right: 1px solid gray;
+    }
+
+    #sales {
+        width: 300px;
+    }
+
+    td {
+        font-family: Cambria;
+        color: gray;
+        font-size: 26px;
+        border: 1px solid #999;
+        padding: 1.5rem;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+</style>
+
+<h2>ShowAllAccounts</h2>
+
+<table>
+    <tr>
+        <th id="idnum">ID</th>
+        <th id="month">Name</th>
+        <th id="month">Balance</th>
+        <th id="sales">Animal type</th>
+        <th id="idnum">Good one</th>
+        <th id="idnum">Bad guy</th>
+    </tr>
+
+    @foreach (var item in Model.BankAccounts)
+    {
+        if (item.IsKing)
+        {
+    <tr style="background-color:goldenrod">
+        <td>@(Model.AccountCounter += 1)</td>
+        <td>@item.Name</td>
+        <td>@item.Balance.ToString("n2") @item.AnimalType.Substring(item.AnimalType.IndexOf(".") + 1)</td>
+        <td>@item.AnimalType</td>
+        @if (item.IsGood)
+        {
+            <td>Yes</td>
+            <td></td>
+        }
+        else
+        {
+            <td></td>
+            <td>Yes</td>
+        }
+
+    </tr>
+        }
+        else
+        {
+    <tr>
+        <td>@(Model.AccountCounter += 1)</td>
+        <td>@item.Name</td>
+        <td>@item.Balance.ToString("n2") @item.AnimalType.Substring(item.AnimalType.IndexOf(".") + 1)</td>
+        <td>@item.AnimalType</td>
+        @if (item.IsGood)
+        {
+            <td>Yes</td>
+            <td></td>
+        }
+        else
+        {
+            <td></td>
+            <td>Yes</td>
+        }
+    </tr>
+        }
+    }
+</table>
+<br />
+<form action="/Controllers/BankAccountControlles" method="post">
+    <label for="username"></label>
+    <input type="text" id="username" placeholder="Username" autofocus required>
+    <label for="e-mail"></label></br>
+    <input type="email" id="e-mail" placeholder="E-mail" required></br>
+    <input type="submit" id="signmeup" value="SIGN ME UP" />
+</form>
+
+
