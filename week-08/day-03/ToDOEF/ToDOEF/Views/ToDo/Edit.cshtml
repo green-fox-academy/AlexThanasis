@@ -1,0 +1,57 @@
+﻿@model ToDo
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Edit tasks</title>
+</head>
+<body>
+    <h2 class="h2">Edit the task</h2>
+    <div class="container-fluid">
+        <table class="table table-striped">
+            <tr>
+                <th>Id</th>
+                <th>Title of task</th>
+                <th>Is urgent?</th>
+                <th>Is done?</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>@Model.Id</td>
+                <td>@Model.Title</td>
+                <td>@if (@Model.IsUrgent)
+                {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                else
+                {
+                    {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> }
+                } </td>
+                <td>
+                    @if (@Model.IsDone)
+                    {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                    else
+                    {
+                        {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
+                    }
+                 </td>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="info">
+                <td>@Model.Id</td>
+                <form action="/ToDo/Update" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <td><input type="text" name="title" value="" placeholder="update title" /></td>
+                    <td><input type="checkbox" name="isurgent" value="true" /></td>
+                    <td><input type="checkbox" name="isdone" value="true" /></td>
+                    <td><button type="submit" class="btn btn-danger"> <span class="glyphicon glyphicon-floppy-open" aria-hidden="true"></span></button></td>
+                </form>
+                <td><form action="/ToDo/Cancel" method="post"><button type="submit" class="btn btn-primary"> <span class="glyphicon glyphicon glyphicon-arrow-up" aria-hidden="true"></span></button></form></td>
+            </tr>
+        </table>
+        <footer class="panel-footer">Click in the forms and click on the button to update</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@model List<ToDo>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>List of tasks</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2 class="h2">Todos for Today</h2>
+            <a class="btn btn-info" href="/add">Add a new task</a>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Is urgent?</th>
+                        <th>Is done?</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var todo in Model)
+                    {
+                        <tr style="background-color:white" align="center">
+                            <td>@todo.Id</td>
+                            <td>@todo.Title</td>
+                            <td>
+                                @if (@todo.IsUrgent)
+                                {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                                else
+                                {
+                                    {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
+                                }
+                                                    </td>
+                            <td>
+                                @if (@todo.IsDone)
+                                {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                                else
+                                {
+                                    {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
+                                }
+                                                    </td>
+                            <td>
+                                <form action="/ToDo/Delete?id=@todo.Id" method="post">
+
+                                    <button class="btn btn-danger" type="submit">delete</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="/ToDo/Edit?id=@todo.Id" method="post">
+
+                                    <button class="btn btn-primary" type="submit"> edit </button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="/ToDo/Done?id=@todo.Id" method="post">
+                                    <button class="btn btn-success" type="submit"> done </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+</body>
+</html>

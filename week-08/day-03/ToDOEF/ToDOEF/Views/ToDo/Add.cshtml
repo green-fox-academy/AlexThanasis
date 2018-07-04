@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="h2">Add</h2>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <table class="table table-bordered">
+            <tr>
+                <form  action="/ToDo/AddToDo" method="post">
+                    <td>
+                        Title of the task:
+                        <input type="text" name="title" value="" placeholder="task" />
+                    </td>
+                    <td>
+                        Is it urgent?:
+                        <input type="checkbox" name="IsUrgent" value="true" />
+                    </td>
+                    <td>
+                        Is it already done?:
+                        <input type="checkbox" name="IsDone" value="true" />
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-info">Add a task</button>
+                    </td>
+                </form>
+            </tr>
+        </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>
