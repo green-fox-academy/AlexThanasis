@@ -10,11 +10,11 @@ namespace ToDOEF.Controllers
 {
     public class TodoController : Controller
     {
-        private ToDoDbContext toDoDbContext;
+        private ToDoRepository toDoRepository;
 
-        public TodoController(ToDoDbContext toDoDbContext)
+        public TodoController(ToDoRepository toDoRepository)
         {
-            this.toDoDbContext = toDoDbContext;
+            this.toDoRepository = toDoRepository;
         }
 
         public IActionResult Index()
@@ -25,43 +25,39 @@ namespace ToDOEF.Controllers
         [Route("/list")]
         public IActionResult List()
         {
-            return View(toDoDbContext.ToDos.ToList());
+            return View(toDoRepository.GetAllElements());
         }
 
         [Route("/add")]
         public IActionResult Add()
         {
-            return View(toDoDbContext.ToDos.ToList());
+            return View();
         }
 
         [HttpPost]
         public IActionResult AddToDo(ToDo todo)
         {
-            toDoDbContext.ToDos.Add(todo);
-            toDoDbContext.SaveChanges();
+            toDoRepository.Create(todo);
             return Redirect("../list");
         }
 
         [HttpPost]
         public IActionResult Delete(long id)
         {
-            ToDo deleteTodo = toDoDbContext.ToDos.Where(d => d.Id == id).First();
-            toDoDbContext.ToDos.Remove(deleteTodo);
-            toDoDbContext.SaveChanges();
+            toDoRepository.Delete(id);
             return Redirect("../list");
         }
 
         public IActionResult Edit(long id)
         {
-            ToDo selectedToDo = toDoDbContext.ToDos.Where(d => d.Id == id).First();
+            ToDo selectedToDo = toDoRepository.Edit(id);
             return View(selectedToDo);
         }
         
         [HttpPost]
         public IActionResult Update(ToDo todo)
         {
-            toDoDbContext.ToDos.Update(todo);
-            toDoDbContext.SaveChanges();
+            toDoRepository.Update(todo);
             return Redirect("../list");
         }
 
@@ -72,11 +68,26 @@ namespace ToDOEF.Controllers
 
         public IActionResult Done(long id)
         {
-            ToDo updatedToDo = toDoDbContext.ToDos.Where(d => d.Id == id).First();
-            updatedToDo.IsDone = true;
-            toDoDbContext.ToDos.Update(updatedToDo);
-            toDoDbContext.SaveChanges();
+            toDoRepository.Done(id);
             return Redirect("../list");
+        }
+        /*
+        [HttpPost]
+        public IActionResult Search(string todo)
+        {
+            ToDo chosenToDo = toDoDbContext.ToDos.Where(d => d.Title.Contains(todo)).First();
+            return View("ToDo/list");
+        } */
+
+        [Route("/assignee")]
+        public IActionResult Assignee()
+        {
+            return View();
+        }
+
+        public void AddAssignee(Assignee assignee)
+        {
+            toDoRepository.CreateAssignee(assignee);
         }
     }
 }

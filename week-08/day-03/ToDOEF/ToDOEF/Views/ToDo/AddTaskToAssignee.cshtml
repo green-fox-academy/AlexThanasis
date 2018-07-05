@@ -1,0 +1,24 @@
+﻿@model List<Assignee>
+@{
+    ViewData["Title"] = "AddTaskToAssignee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add tasks to assignees</h2>
+
+<div class="container-fluid">
+
+    <form action="/" method="post">
+        <select>
+            @foreach (var assignee in Model)
+            {
+            <p>assignee.Name</p>
+            <p>assignee.Email</p>
+            }
+
+            <option value="value">text</option>
+            
+        </select>
+    </form>
+<footer class="panel-footer">Click in the forms and click on the button to update</footer>
+</div>

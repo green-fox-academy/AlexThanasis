@@ -14,5 +14,6 @@ namespace ToDOEF.Models
         public bool IsUrgent { get; set; }
         [DefaultValue(false)]
         public bool IsDone { get; set; }
+        public Assignee Assignee { get; set; }
     }
 }

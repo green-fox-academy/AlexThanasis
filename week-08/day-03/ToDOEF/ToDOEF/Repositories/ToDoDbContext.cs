@@ -9,6 +9,7 @@ namespace ToDOEF.Repositories
 {
     public class ToDoDbContext : DbContext
     {
+        public DbSet<Assignee> Assignees { get; set; }
         public DbSet<ToDo> ToDos { get; set; }
         public ToDoDbContext(DbContextOptions<ToDoDbContext> options) : base(options)
         {

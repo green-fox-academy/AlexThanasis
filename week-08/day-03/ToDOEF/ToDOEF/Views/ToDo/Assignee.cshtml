@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Assignee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="h2">Assignee</h2>
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8">
+    <table class="table table-bordered">
+        <tr>
+            <form action="/ToDo/AddAssignee" method="post">
+                <td>
+                    Name of the responsible:
+                    <input type="text" name="name" value="" placeholder="name" />
+                </td>
+                <td>
+                    E-mail address:
+                    <input type="text" name="email" value="" placeholder="e-mail" />
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-info">Save new Assignee</button>
+                </td>
+            </form>
+        </tr>
+    </table>
+</div>
+<div class="col-md-2"></div>
+</div>

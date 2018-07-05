@@ -9,3 +9,14 @@ C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\ToDOEF\ToDOEF\obj\Debug\n
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.AssemblyInfo.cs
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.dll
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\bin\Debug\netcoreapp2.0\ToDOEF.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\bin\Debug\netcoreapp2.0\ToDOEF.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\bin\Debug\netcoreapp2.0\ToDOEF.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\bin\Debug\netcoreapp2.0\ToDOEF.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\bin\Debug\netcoreapp2.0\ToDOEF.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-03\ToDOEF\ToDOEF\obj\Debug\netcoreapp2.0\ToDOEF.pdb

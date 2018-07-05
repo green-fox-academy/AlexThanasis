@@ -12,8 +12,11 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <h2 class="h2">Todos for Today</h2>
-            <a class="btn btn-info" href="/add">Add a new task</a>
-
+            
+            <div class="btn-group">
+                <a href="/add" class="btn btn-info">Add a new task</a>
+                <a href="/assignee" class="btn btn-danger">Add assignee for a task</a>
+            </div>
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -21,6 +24,7 @@
                         <th>Title</th>
                         <th>Is urgent?</th>
                         <th>Is done?</th>
+                        <th>Responsible</th>
                         <th></th>
                         <th></th>
                         <th></th>
@@ -29,47 +33,55 @@
                 <tbody>
                     @foreach (var todo in Model)
                     {
-                        <tr style="background-color:white" align="center">
-                            <td>@todo.Id</td>
-                            <td>@todo.Title</td>
-                            <td>
-                                @if (@todo.IsUrgent)
-                                {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
-                                else
-                                {
-                                    {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
-                                }
-                                                    </td>
-                            <td>
-                                @if (@todo.IsDone)
-                                {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
-                                else
-                                {
-                                    {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
-                                }
-                                                    </td>
-                            <td>
-                                <form action="/ToDo/Delete?id=@todo.Id" method="post">
+                    <tr style="background-color:white" align="center">
+                        <td>@todo.Id</td>
+                        <td>@todo.Title</td>
+                        <td>
+                            @if (@todo.IsUrgent)
+                            {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                            else
+                            {
+                                {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
+                            }
+                        </td>
+                        <td>
+                            @if (@todo.IsDone)
+                            {<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> }
+                            else
+                            {
+                                {<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>}
+                            }
+                        </td>
+                        <td>
+                            @todo.Assignee
+                        </td>
+                        <td>
+                            <form action="/ToDo/Delete?id=@todo.Id" method="post">
 
-                                    <button class="btn btn-danger" type="submit">delete</button>
-                                </form>
-                            </td>
-                            <td>
-                                <form action="/ToDo/Edit?id=@todo.Id" method="post">
+                                <button class="btn btn-danger" type="submit">delete</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="/ToDo/Edit?id=@todo.Id" method="post">
 
-                                    <button class="btn btn-primary" type="submit"> edit </button>
-                                </form>
-                            </td>
-                            <td>
-                                <form action="/ToDo/Done?id=@todo.Id" method="post">
-                                    <button class="btn btn-success" type="submit"> done </button>
-                                </form>
-                            </td>
-                        </tr>
+                                <button class="btn btn-primary" type="submit"> edit </button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action="/ToDo/Done?id=@todo.Id" method="post">
+                                <button class="btn btn-success" type="submit"> done </button>
+                            </form>
+                        </td>
+                    </tr>
                     }
                 </tbody>
             </table>
-            </div>
+            <br />
+            <form action="/ToDo/Search" method="post">
+                <input type="text" name="todo" value="" placeholder="search..." />
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
             <div class="col-md-1"></div>
         </div>
 </body>

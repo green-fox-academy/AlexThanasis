@@ -26,7 +26,7 @@ namespace ToDOEF
             string connectionString = @"Data Source=(localdb)\v11.0;Initial Catalog=ToDo;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             services.AddMvc();
             services.AddDbContext<ToDoDbContext>(options => options.UseSqlServer(connectionString));
-            services.AddTransient<ToDoDbContext>();
+            services.AddTransient<ToDoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

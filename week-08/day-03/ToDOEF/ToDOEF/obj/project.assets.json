@@ -13367,11 +13367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\ToDOEF\\ToDOEF\\ToDOEF.csproj",
+      "projectUniqueName": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-03\\ToDOEF\\ToDOEF\\ToDOEF.csproj",
       "projectName": "ToDOEF",
-      "projectPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\ToDOEF\\ToDOEF\\ToDOEF.csproj",
+      "projectPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-03\\ToDOEF\\ToDOEF\\ToDOEF.csproj",
       "packagesPath": "C:\\Users\\Alex_GR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\ToDOEF\\ToDOEF\\obj\\",
+      "outputPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-03\\ToDOEF\\ToDOEF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
