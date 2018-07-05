@@ -73,6 +73,7 @@ namespace ToDOEF.Controllers
         public IActionResult Done(long id)
         {
             ToDo updatedToDo = toDoDbContext.ToDos.Where(d => d.Id == id).First();
+            updatedToDo.IsDone = true;
             toDoDbContext.ToDos.Update(updatedToDo);
             toDoDbContext.SaveChanges();
             return Redirect("../list");
