@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Service";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="h2">Service</h2>
+<<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <table class="table table-bordered">
+            <tr>
+                <form action="/Reddit/submit" method="post">
+                    <td>
+                        Title:
+                        <input type="text" name="content" value="" placeholder="Whoa what a gif..." />
+                    </td>
+                    <td>
+                        URL:
+                        <input type="text" name="url" value="" placeholder="Type the url" />
+                    </td>
+                    <td>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </td>
+                </form>
+            </tr>
+        </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>

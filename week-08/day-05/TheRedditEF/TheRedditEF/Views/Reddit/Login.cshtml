@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background: lightgrey;
+            padding: 50px;
+        }
+
+        #accountbox {
+            background: #ffffff;
+            width: 300px;
+            height: 300px;
+            font-family: calibri;
+            color: #606060;
+            padding: 50px;
+            border: none;
+        }
+
+        #titleofbox {
+            font-size: 24px;
+        }
+
+        #reminder {
+            font-size: 11px
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
+<h2>Login</h2>
+
+<fieldset id="accountbox">
+    <p id="titleofbox">ACCOUNT LOGIN</p>
+    <form action="/reddit/login" method="post">
+        <label for="username">USERNAME</label></br>
+        <input type="email" id="username" name="email" autofocus required></br></br>
+        <label for="password">PASSWORD</label></br>
+        <input type="text" id="password" name="password" required>
+        <p id="reminder">Forget password?</p>
+        <input type="button" value="Login">
+    </form>
+
+    <a href="/index">testing</a>
+    <a href="../Reddit/service">testingService</a>
+</fieldset>
+
