@@ -29,14 +29,9 @@ namespace TheRedditEF.Repositories
 
         public List<Post> GetAllElements()
         {
-            return postDbContext.Posts.ToList();
+            return postDbContext.Posts.OrderByDescending(x=>x.Score).ToList();
         }
 
-        public Post Edit(long id)
-        {
-            Post selectedToDo = postDbContext.Posts.Where(d => d.Id == id).First();
-            return selectedToDo;
-        }
 
         public void Update(Post element)
         {
@@ -44,18 +39,5 @@ namespace TheRedditEF.Repositories
             postDbContext.SaveChanges();
         }
 
-        public void Upvote(Post element)
-        {
-            element.Score += 1;
-            postDbContext.Posts.Update(element);
-            postDbContext.SaveChanges();
-        }
-
-        public void Down(Post element)
-        {
-            element.Score -= 1;
-            postDbContext.Posts.Update(element);
-            postDbContext.SaveChanges();
-        }
     }
 }

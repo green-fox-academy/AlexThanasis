@@ -5,20 +5,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TheRedditEF.Models;
 using TheRedditEF.Repositories;
+using TheRedditEF.Services;
 
 namespace TheRedditEF.Controllers
 {
     public class RedditController : Controller
     {
-        private PostRepository postRepository;
-        public RedditController(PostRepository postRepository)
+        private RedditService redditService;
+        public RedditController(RedditService redditService)
         {
-           this.postRepository = postRepository;
+            this.redditService = redditService;
         }
-
         public IActionResult Index()
         {
-            return View();
+            return View(redditService.GetAllElements());
         }
 
         [Route("/createpost")]
@@ -35,42 +35,42 @@ namespace TheRedditEF.Controllers
         [HttpPost]
         public IActionResult Submit(Post post)
         {
-            postRepository.Create(post);
-            return Redirect("../index");
+            redditService.Create(post);
+            return View("../Reddit/index", redditService.GetAllElements());
         }
 
         [HttpPost]
         public IActionResult Delete(long id)
         {
-            postRepository.Delete(id);
+            redditService.Delete(id);
             return Redirect("../index");
         }
 
         [HttpPost]
         public IActionResult Update(Post post)
         {
-            postRepository.Update(post);
+            redditService.Update(post);
             return Redirect("../index");
         }
 
         [HttpPost]
-        public IActionResult Upvote(Post post)
+        public IActionResult Upvote(long id)
         {
-            postRepository.Upvote(post);
-            return Redirect("../Index");
+            redditService.Upvote(id);
+            return View("../Reddit/index", redditService.GetAllElements());
         }
 
         [HttpPost]
-        public IActionResult Down(Post post)
+        public IActionResult Down(long id)
         {
-            postRepository.Down(post);
-            return Redirect("../Index");
+            redditService.Down(id);
+            return View("../Reddit/index", redditService.GetAllElements());
         }
 
         [Route("/search")]
         public IActionResult Search(Post post)
         {
-            postRepository.Update(post);
+            redditService.Update(post);
             return Redirect("../index");
         }
 
@@ -78,5 +78,11 @@ namespace TheRedditEF.Controllers
         {
             return View();
         }
+
+        public IActionResult ViewImage(Post post)
+        {
+            return View(post);
+        }
+
     }
 }
