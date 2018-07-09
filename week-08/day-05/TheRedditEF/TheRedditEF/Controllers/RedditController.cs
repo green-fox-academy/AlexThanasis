@@ -32,6 +32,11 @@ namespace TheRedditEF.Controllers
             return View();
         }
 
+        public IActionResult Signup()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Submit(Post post)
         {
@@ -67,16 +72,16 @@ namespace TheRedditEF.Controllers
             return View("../Reddit/index", redditService.GetAllElements());
         }
 
-        [Route("/search")]
-        public IActionResult Search(Post post)
+        public IActionResult SearchPost(Post post)
         {
-            redditService.Update(post);
-            return Redirect("../index");
+            List<Post> tempList = new List<Post>();
+            tempList.Add(redditService.SearchPost(post));
+            return View("../Reddit/index", tempList);
         }
 
         public IActionResult Service(Post post)
         {
-            return View();
+            return View(redditService.GetAllUsers());
         }
 
         public IActionResult ViewImage(Post post)
@@ -84,5 +89,38 @@ namespace TheRedditEF.Controllers
             return View(post);
         }
 
+        public IActionResult SaveSignUp(User user)
+        {
+            redditService.CreateUser(user);
+            return View("../index", redditService.GetAllElements());
+        }
+
+        public IActionResult LoginResult(User user)
+        {
+            if (redditService.TestUser(user))
+            {
+                redditService.GetAllUsers().Where(x => x.Name == user.Name).First().IsLoggedIn = true; ;
+            }
+            return View("../Reddit/index");
+        }
+        public IActionResult SaveSignUpTest()
+        {
+            User user = new User()
+            {
+                Name = "TestMan",
+                Email = "wtf@wtf.hu",
+                IsLoggedIn = true,
+                Password = "123test"
+            };
+            
+            redditService.CreateUser(user);
+            return View("../Reddit/index", redditService.GetAllElements());
+        }
+
+        public IActionResult Logout()
+        {
+            redditService.Logout();
+            return View("../Reddit/login");
+        }
     }
 }

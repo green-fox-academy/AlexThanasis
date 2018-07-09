@@ -40,7 +40,7 @@ namespace TheRedditEF.Services
             postRepository.Delete(id);
         }
 
-        internal void Update(Post post)
+        public void Update(Post post)
         {
             postRepository.Update(post);
         }
@@ -50,10 +50,76 @@ namespace TheRedditEF.Services
             return postRepository.GetAllElements();
         }
 
+        public Post GetElementById(long id)
+        {
+            return postRepository.GetElementById(id);
+        }
+
         public void Create(Post element)
         {
             postRepository.Create(element);
         }
 
+        public Post SearchPost(Post post)
+        {
+            var searchingPost = postRepository.GetAllElements().Where(s => s.Content.Contains(post.Content)).First();
+            return searchingPost;
+        }
+
+        public User EditUser(long id)
+        {
+            var editUser = userRepository.GetAllElements().Where(x => x.Id == id).First();
+            return editUser;
+        }
+
+        public void DeleteUser(long id)
+        {
+            userRepository.Delete(id);
+        }
+
+        public void UpdateUser(User user)
+        {
+            userRepository.Update(user);
+        }
+
+        public List<User> GetAllUsers()
+        {
+            return userRepository.GetAllElements();
+        }
+
+        public User GetUSerById(long id)
+        {
+            return userRepository.GetElementById(id);
+        }
+
+        public bool TestUser(User user)
+        {
+            if (userRepository.GetAllElements().Where(x => x.Name == user.Name).First().Password == user.Password )
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void CreateUser(User user)
+        {
+            userRepository.Create(user);
+        }
+
+        public User SearchUser(User user)
+        {
+            var searchingUser = userRepository.GetAllElements().Where(s => s.Name.Contains(user.Name)).First();
+            return searchingUser;
+        }
+
+        public void Logout()
+        {
+            var userToLogOut = userRepository.GetAllElements().Where(x => x.IsLoggedIn == true).First();
+            userToLogOut.IsLoggedIn = false;
+            userRepository.Update(userToLogOut);
+        }
     }
 }

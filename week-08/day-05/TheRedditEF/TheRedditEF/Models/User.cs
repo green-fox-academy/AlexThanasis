@@ -11,6 +11,7 @@ namespace TheRedditEF.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public bool IsLoggedIn { get; set; } 
         public List<Post>WrittenPosts { get; set; }
     }
 }

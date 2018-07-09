@@ -32,6 +32,10 @@ namespace TheRedditEF.Repositories
             return postDbContext.Posts.OrderByDescending(x=>x.Score).ToList();
         }
 
+        public Post GetElementById(long id)
+        {
+            return postDbContext.Posts.Where(x => x.Id == id).FirstOrDefault(); ;
+        }
 
         public void Update(Post element)
         {

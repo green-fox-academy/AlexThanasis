@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SignUp</h2>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background: lightgrey;
+            padding: 50px;
+        }
+
+        #accountbox {
+            background: #ffffff;
+            width: 400px;
+            height: 400px;
+            font-family: calibri;
+            color: #606060;
+            padding: 50px;
+            border: none;
+        }
+
+        #titleofbox {
+            font-size: 24px;
+        }
+
+        #reminder {
+            font-size: 11px
+        }
+    </style>
+</head>
+<body>
+
+    <div id="accountbox">
+        <p id="titleofbox">SIGN UP</p>
+        <form action="/Reddit/savesignup" method="post">
+            <label for="username">USERNAME</label></br>
+            <input type="text" id="username" name="name" autofocus required></br></br>
+            <label for="email">E-MAIL</label></br>
+            <input type="text" id="email" name="email"></br></br>
+            <label for="password">PASSWORD</label></br>
+            <input type="text" id="password" name="password">
+            <button class="btn btn-default" type="submit" value="Submit">
+                Submit
+            </button>
+        </form>
+
+    </div>
+
+    <br />
+    <a href="../Reddit/index">testing</a>
+    <a href="../Reddit/service">testingService</a>
+    <br />
+    <a href="../Reddit/savesignuptest">AddTest</a>
+
+</body>
+</html>

@@ -16,22 +16,31 @@ namespace TheRedditEF.Repositories
 
         public void Create(User element)
         {
-            throw new NotImplementedException();
+            postDbContext.Users.Add(element);
+            postDbContext.SaveChanges();
         }
 
         public void Delete(long id)
         {
-            throw new NotImplementedException();
+            User deleteUser = postDbContext.Users.Where(d => d.Id == id).First();
+            postDbContext.Users.Remove(deleteUser);
+            postDbContext.SaveChanges();
         }
 
         public List<User> GetAllElements()
         {
-            throw new NotImplementedException();
+            return postDbContext.Users.OrderByDescending(x => x.Id).ToList();
+        }
+
+        public User GetElementById(long id)
+        {
+            return postDbContext.Users.Where(x => x.Id == id).FirstOrDefault();
         }
 
         public void Update(User element)
         {
-            throw new NotImplementedException();
+            postDbContext.Users.Update(element);
+            postDbContext.SaveChanges();
         }
     }
 }

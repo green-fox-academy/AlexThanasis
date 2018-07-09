@@ -11,6 +11,8 @@ namespace TheRedditEF.Repositories
 
         List<Type> GetAllElements();
 
+        Type GetElementById(long id);
+
         void Update(Type element);
 
         void Delete(long id);

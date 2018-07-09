@@ -29,7 +29,7 @@ namespace TheRedditEF
             services.AddDbContext<PostDbContext>(options => options.UseSqlServer(connectionString));
             services.AddTransient<PostRepository>();
             services.AddTransient<UserRepository>();
-            services.AddTransient<IReddit, RedditService>();
+            services.AddTransient<RedditService>();
             
         }
 
