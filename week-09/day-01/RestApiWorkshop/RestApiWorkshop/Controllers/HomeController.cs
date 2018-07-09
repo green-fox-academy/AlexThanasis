@@ -18,13 +18,13 @@ namespace RestApiWorkshop.Controllers
         [HttpGet("/doubling")]
         public IActionResult Doubling(int? recieved)
         {
-            if (recieved == null)
+            if (recieved != null)
             {
-                return Json(new { error = "Please, provide an input"});
+                return Json(new { recieved = recieved, result = recieved * 2 });
             }
             else
             {
-                return Json(new { received = recieved, result = recieved * 2 });
+                return Json(new { error = "Please, provide an input"});
             }
         }
 
@@ -34,6 +34,10 @@ namespace RestApiWorkshop.Controllers
             if (name != null && title != null)
             {
                 return Json(new { welcome_message = "Oh hi there " + name + "my dear " + title });
+            }
+            else if(name != null)
+            {
+                return Json(new { error = "Please provide the title" });
             }
             else
             {
@@ -61,9 +65,9 @@ namespace RestApiWorkshop.Controllers
             if (what.Equals("sum"))
             {
                 result = 0;
-                for (int i = 0; i < until.Until; i++)
+                for (int i = 0; i <= until.Until; i++)
                 {
-                    result++;
+                    result += i;
                 }
                 return Json(new { result });   
             }
@@ -81,10 +85,55 @@ namespace RestApiWorkshop.Controllers
             }
         }
 
+        [HttpPost("/arrays/")]
+        public IActionResult Arrays([FromBody] Data Numbers)
+        {
+            int output = 0;
+            if (Numbers.What.Equals("sum"))
+            {
+                for (int i = 0; i < Numbers.Numbers.Count; i++)
+                {
+                    output += Numbers.Numbers[i];
+                }
+                return Json(new { sum = output });
+            }
+            else if (Numbers.What.Equals("multiply"))
+            {
+                output = 1;
+                for (int i = 0; i < Numbers.Numbers.Count; i++)
+                {
+                    output *= Numbers.Numbers[i];
+                }
+                return Json(new { result = output });
+            }
+            else if (Numbers.What.Equals("double"))
+            {
+                for (int i = 0; i < Numbers.Numbers.Count; i++)
+                {
+                    Numbers.Numbers[i] *= 2;
+                }
+                return Json(new { result  = Numbers.Numbers.ToArray() });
+            }
+            else if (Numbers.What == null)
+            {
+                return Json(new { error = "invalid paramater" });
+            }
+            else if (Numbers.Numbers == null)
+            {
+                return Json(new { error = "please, give me number array" });
+            }
+            else
+            {
+                return Json(new { error = "something 's gone wrong :/" });
+            }
+        }
+
     }
 
     public class Data
     {
-        public int Until { get; set; }
+        public int? Until { get; set; }
+        public List<int> Numbers = new List<int>();
+        public string What { get; set; }
     }
 }
