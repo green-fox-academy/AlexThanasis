@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\RestApiWorkshop\\RestApiWorkshop\\RestApiWorkshop.csproj",
+      "projectUniqueName": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-09\\day-01\\RestApiWorkshop\\RestApiWorkshop\\RestApiWorkshop.csproj",
       "projectName": "RestApiWorkshop",
-      "projectPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\RestApiWorkshop\\RestApiWorkshop\\RestApiWorkshop.csproj",
+      "projectPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-09\\day-01\\RestApiWorkshop\\RestApiWorkshop\\RestApiWorkshop.csproj",
       "packagesPath": "C:\\Users\\Alex_GR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\RestApiWorkshop\\RestApiWorkshop\\obj\\",
+      "outputPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-09\\day-01\\RestApiWorkshop\\RestApiWorkshop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
