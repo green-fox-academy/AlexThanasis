@@ -16,15 +16,15 @@ namespace RestApiWorkshop.Controllers
         }
 
         [HttpGet("/doubling")]
-        public IActionResult Doubling(int? input)
+        public IActionResult Doubling(int? recieved)
         {
-            if (input == null)
+            if (recieved == null)
             {
-                return Json(new { error = "Please, give me an input!"});
+                return Json(new { error = "Please, provide an input"});
             }
             else
             {
-                return Json(new { received = input, result = input * 2 });
+                return Json(new { received = recieved, result = recieved * 2 });
             }
         }
 
@@ -33,12 +33,43 @@ namespace RestApiWorkshop.Controllers
         {
             if (name != null && title != null)
             {
-                return Json(new {name = name, title = title });
+                return Json(new { welcome_message = "Oh hi there " + name + "my dear " + title });
             }
             else
             {
-                return Json(new { error = "Please provide a name!" });
+                return Json(new { error = "Please provide both the name and the title" });
             }
         }
+
+        [HttpGet("/appenda/{appendable}")]
+        public IActionResult AppendA(string appendable)
+        {
+            if (appendable != null)
+            {
+                return Json(new { appendable = appendable + "a"});
+            }
+            else
+            {
+                return StatusCode(404);
+            }
+        }
+
+        [HttpPost("/dountil/{what}/{until}")]
+        public IActionResult DoUntil(string what, int until)
+        {
+            if (what.Equals("sum"))
+            {
+                return Json(new {until  })    
+            }
+            else if (what.Equals("factor"))
+            {
+
+            }
+            else
+            {
+                return Json(new { error = "Please provide a number!" });
+            }
+        }
+
     }
 }
