@@ -7,6 +7,7 @@ namespace RestApiWorkshop.Model
 {
     public class Log
     {
+        public int Id { get; set; }
         public DateTime CreatedAt { get; set; }
         public string Endpoint { get; set; }
         public string Data { get; set; }
