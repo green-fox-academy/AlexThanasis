@@ -54,16 +54,26 @@ namespace RestApiWorkshop.Controllers
             }
         }
 
-        [HttpPost("/dountil/{what}/{until}")]
-        public IActionResult DoUntil(string what, int until)
+        [HttpPost("/dountil/{what}")]
+        public IActionResult DoUntil(string what, [FromBody] Data until)
         {
+            int result = 1;
             if (what.Equals("sum"))
             {
-                return Json(new {until  })    
+                result = 0;
+                for (int i = 0; i < until.Until; i++)
+                {
+                    result++;
+                }
+                return Json(new { result });   
             }
             else if (what.Equals("factor"))
             {
-
+                for (int i = 1; i <= until.Until; i++)
+                {
+                    result *= i;
+                }
+                return Json(new { result});
             }
             else
             {
@@ -71,5 +81,10 @@ namespace RestApiWorkshop.Controllers
             }
         }
 
+    }
+
+    public class Data
+    {
+        public int Until { get; set; }
     }
 }
