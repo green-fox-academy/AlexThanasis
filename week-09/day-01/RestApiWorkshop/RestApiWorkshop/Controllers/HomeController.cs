@@ -15,6 +15,34 @@ namespace RestApiWorkshop.Controllers
             return File("index.html", " text/html");
         }
 
-        [HttpGet("/")]
+        [HttpGet("/doubling")]
+        public IActionResult Doubling(int? input)
+        {
+            if (input == null)
+            {
+                return Json(new { error = "Please, give me an input!"});
+            }
+            else
+            {
+                return Json(new { received = input, result = input * 2 });
+            }
+        }
+
+        [HttpGet("/greeter")]
+        public IActionResult Greeter(string name, string title)
+        {
+            if (name != null && title != null)
+            {
+                return Json(new {name =  });
+                return Json(new { error = "Please, give me an input!" });
+            }
+            else
+            {
+                return Json(new { received = input, result = input * 2 });
+            }
+            {
+                "welcome_message": "Oh, hi there Petike, my dear student!"
+}       
+        }
     }
 }

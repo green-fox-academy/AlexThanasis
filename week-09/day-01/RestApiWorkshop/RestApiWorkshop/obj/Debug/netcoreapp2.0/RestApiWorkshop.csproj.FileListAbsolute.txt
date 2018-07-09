@@ -9,3 +9,14 @@ C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\RestApiWorkshop\RestApiWo
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.pdb
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.dll
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\bin\Debug\netcoreapp2.0\RestApiWorkshop.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshop\obj\Debug\netcoreapp2.0\RestApiWorkshop.pdb
