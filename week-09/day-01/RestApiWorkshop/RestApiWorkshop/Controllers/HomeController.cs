@@ -127,7 +127,6 @@ namespace RestApiWorkshop.Controllers
                 return Json(new { error = "something 's gone wrong :/" });
             }
         }
-
     }
 
     public class Data
