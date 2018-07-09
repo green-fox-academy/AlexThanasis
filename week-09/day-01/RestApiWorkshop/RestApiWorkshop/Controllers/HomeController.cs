@@ -33,16 +33,12 @@ namespace RestApiWorkshop.Controllers
         {
             if (name != null && title != null)
             {
-                return Json(new {name =  });
-                return Json(new { error = "Please, give me an input!" });
+                return Json(new {name = name, title = title });
             }
             else
             {
-                return Json(new { received = input, result = input * 2 });
+                return Json(new { error = "Please provide a name!" });
             }
-            {
-                "welcome_message": "Oh, hi there Petike, my dear student!"
-}       
         }
     }
 }
