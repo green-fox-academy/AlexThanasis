@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using RestApiWorkshop.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RestApiWorkshopTest
 {
@@ -82,16 +83,25 @@ namespace RestApiWorkshopTest
 
             Assert.Equal(JsonConvert.SerializeObject(new { appendable = appendable + "a"}), response.Content.ReadAsStringAsync().Result);
         }
-
-        [Fact]
-        public async Task ShouldNotGetAppendA()
+        /*
+        [Theory]
+        [InlineData("sum", 4)]
+        [InlineData("factor", 4)]
+        public async Task ShouldGetPetesRealName(string what, [FromBody] Data until)
         {
             //arrange
-            var response = await Client.GetAsync("/doubling?recieved=5");
+            var response = await Client.GetAsync("/dountil/" + what);
             //act
-            //assert
+            var codeMonk = JsonConvert.DeserializeObject<CodeMonk.Models.CodeMonk>(await response.Content.ReadAsStringAsync());
+            CodeMonk.Models.CodeMonk expected = new CodeMonk.Models.CodeMonk()
+            {
+                Age = age,
+                Name = name
+            };
 
-            Assert.Equal(JsonConvert.SerializeObject(new { recieved = 5, result = 10 }), response.Content.ReadAsStringAsync().Result);
-        }
+            //assert
+            Assert.Equal(expected, codeMonk);
+        }*/
+
     }
 }
