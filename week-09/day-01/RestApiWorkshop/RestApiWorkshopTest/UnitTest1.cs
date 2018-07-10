@@ -51,12 +51,28 @@ namespace RestApiWorkshopTest
             //arrange
             var response = await Client.GetAsync("/doubling?recieved=5");
             //act
-            var result = JsonConvert.DeserializeObject<string>(await response.Content.ReadAsStringAsync());
-            int optimalResult = 5 * 2;
             //assert
 
-            Assert.Equal("recieved : 5, result : 10", result.ToString());
+            Assert.Equal(JsonConvert.SerializeObject(new { recieved = 5, result = 10 } ), response.Content.ReadAsStringAsync().Result);
         }
 
+        [Theory]
+        [InlineData("Pipi", "Megtorló")]
+        [InlineData("TDDNiki", "TDD")]
+        public async Task ShouldGetGreeter(string name, string title)
+        {
+            //arrange
+            var response = await Client.GetAsync("/greeter/pete?name=" + name + "&age=" + title);
+            //act
+            var codeMonk = JsonConvert.DeserializeObject<CodeMonk.Models.CodeMonk>(await response.Content.ReadAsStringAsync());
+            CodeMonk.Models.CodeMonk expected = new CodeMonk.Models.CodeMonk()
+            {
+                Age = age,
+                Name = name
+            };
+
+            //assert
+            Assert.Equal(expected, codeMonk);
+        }
     }
 }

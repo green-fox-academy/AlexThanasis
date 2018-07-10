@@ -33,7 +33,7 @@ namespace RestApiWorkshop.Controllers
         {
             if (name != null && title != null)
             {
-                return Json(new { welcome_message = "Oh hi there " + name + "my dear " + title });
+                return Json(new { welcome_message = "Oh hi there " + name + " my dear " + title });
             }
             else if(name != null)
             {
