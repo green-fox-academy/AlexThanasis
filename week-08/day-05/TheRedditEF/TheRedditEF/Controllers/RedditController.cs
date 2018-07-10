@@ -37,6 +37,11 @@ namespace TheRedditEF.Controllers
             return View();
         }
 
+        public IActionResult LoginUser()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Submit(Post post)
         {
