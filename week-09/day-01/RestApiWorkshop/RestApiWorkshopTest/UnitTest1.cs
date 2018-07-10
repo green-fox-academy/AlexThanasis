@@ -62,17 +62,14 @@ namespace RestApiWorkshopTest
         public async Task ShouldGetGreeter(string name, string title)
         {
             //arrange
-            var response = await Client.GetAsync("/greeter/pete?name=" + name + "&age=" + title);
+            var response = await Client.GetAsync("/greeter?name=" + name + "&title=" + title);
             //act
-            var codeMonk = JsonConvert.DeserializeObject<CodeMonk.Models.CodeMonk>(await response.Content.ReadAsStringAsync());
-            CodeMonk.Models.CodeMonk expected = new CodeMonk.Models.CodeMonk()
-            {
-                Age = age,
-                Name = name
-            };
+            var greet = JsonConvert.DeserializeObject<HomeController>(await response.Content.ReadAsStringAsync());
 
             //assert
-            Assert.Equal(expected, codeMonk);
+            Assert.Equal(JsonConvert.SerializeObject(new { welcome_message = "Oh hi there " + name + " my dear " + title }), response.Content.ReadAsStringAsync().Result);
         }
+
+
     }
 }
