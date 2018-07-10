@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            </br>
+            <br/>
             <a href="/createpost" class="btn btn-info">Submit new post</a>
             <h2 class="h2">Trending posts</h2>
             <div class="btn-group">
@@ -34,7 +34,7 @@
                                 <td>@Model[i].Score</td>
                                 <td><form action="/Reddit/Upvote?id=@Model[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
                                 <td><form action="/Reddit/Down?id=@Model[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
-                                <td><a href="/Reddit/ViewImage?post=@Model[i]"> @Model[i].Content</a></td>
+                                <td><a href="/Reddit/ViewImage?post=@Model[i].Id"> @Model[i].Content</a></td>
                                 <td>@Model[i].CreatedAt</td>
                             </tr>
                         }
@@ -47,7 +47,7 @@
                                 <td>@Model[i].Score</td>
                                 <td><form action="/Reddit/Upvote?id=@Model[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
                                 <td><form action="/Reddit/Down?id=@Model[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
-                                <td><a href="/Reddit/ViewImage?post=@Model[i]"> @Model[i].Content</a></td>
+                                <td><a href="/Reddit/ViewImage?post=@Model[i].Id"> @Model[i].Content</a></td>
                                 <td>@Model[i].CreatedAt</td>
                             </tr>
                         }

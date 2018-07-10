@@ -9,3 +9,14 @@ C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\TheRedditEF\TheRedditEF\o
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.pdb
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.dll
 C:\Users\Alex_GR\Documents\Visual Studio 2017\Projects\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\bin\Debug\netcoreapp2.0\TheRedditEF.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-08\day-05\TheRedditEF\TheRedditEF\obj\Debug\netcoreapp2.0\TheRedditEF.pdb

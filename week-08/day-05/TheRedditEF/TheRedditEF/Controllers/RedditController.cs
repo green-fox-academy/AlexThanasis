@@ -84,9 +84,9 @@ namespace TheRedditEF.Controllers
             return View(redditService.GetAllUsers());
         }
 
-        public IActionResult ViewImage(Post post)
+        public IActionResult ViewImage(long id)
         {
-            return View(post);
+            return View(redditService.GetElementById(id));
         }
 
         public IActionResult SaveSignUp(User user)

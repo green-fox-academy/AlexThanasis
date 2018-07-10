@@ -8,9 +8,9 @@ namespace TheRedditEF.ViewModels
 {
     public class PostUser
     {
-        public Post post;
-        public User user;
-        public List<Post> listOfPosts;
-        public List<User> listOfUsers;
+        public Post Post { get; set; }
+        public User User { get; set; }
+        public List<Post> ListOfPosts { get; set; }
+        public List<User> ListOfUsers { get; set; }
     }
 }

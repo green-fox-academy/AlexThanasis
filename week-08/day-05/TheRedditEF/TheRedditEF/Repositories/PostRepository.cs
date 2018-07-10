@@ -34,7 +34,7 @@ namespace TheRedditEF.Repositories
 
         public Post GetElementById(long id)
         {
-            return postDbContext.Posts.Where(x => x.Id == id).FirstOrDefault(); ;
+            return postDbContext.Posts.Where(x => x.Id == id).FirstOrDefault();
         }
 
         public void Update(Post element)
