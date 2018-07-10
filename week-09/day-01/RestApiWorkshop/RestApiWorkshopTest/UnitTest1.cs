@@ -70,6 +70,28 @@ namespace RestApiWorkshopTest
             Assert.Equal(JsonConvert.SerializeObject(new { welcome_message = "Oh hi there " + name + " my dear " + title }), response.Content.ReadAsStringAsync().Result);
         }
 
+        [Theory]
+        [InlineData("Kuty")]
+        [InlineData("Macsk")]
+        public async Task ShouldGetAppendA(string appendable)
+        {
+            //arrange
+            var response = await Client.GetAsync("/appenda/appendable=" + appendable);
+            //act
+            //assert
 
+            Assert.Equal(JsonConvert.SerializeObject(new { appendable = appendable + "a"}), response.Content.ReadAsStringAsync().Result);
+        }
+
+        [Fact]
+        public async Task ShouldNotGetAppendA()
+        {
+            //arrange
+            var response = await Client.GetAsync("/doubling?recieved=5");
+            //act
+            //assert
+
+            Assert.Equal(JsonConvert.SerializeObject(new { recieved = 5, result = 10 }), response.Content.ReadAsStringAsync().Result);
+        }
     }
 }
