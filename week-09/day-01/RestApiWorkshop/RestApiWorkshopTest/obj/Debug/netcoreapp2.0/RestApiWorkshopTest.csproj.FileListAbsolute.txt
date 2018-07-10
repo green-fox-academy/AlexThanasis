@@ -12,3 +12,6 @@ C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\
 C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.AssemblyInfoInputs.cache
 C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.AssemblyInfo.cs
 C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.csproj.CopyComplete
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshopTest.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.pdb
