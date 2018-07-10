@@ -1,0 +1,14 @@
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshopTest.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshopTest.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshopTest.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshopTest.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshop.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\bin\Debug\netcoreapp2.0\RestApiWorkshop.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-01\RestApiWorkshop\RestApiWorkshopTest\obj\Debug\netcoreapp2.0\RestApiWorkshopTest.csproj.CopyComplete
