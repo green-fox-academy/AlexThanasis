@@ -47,11 +47,17 @@ namespace TheRedditEF.Controllers
             return View();
         }
 
+        [HttpPost("/edit")]
+        public IActionResult Edit(long id)
+        {
+            return View(redditService.GetElementById(id));
+        }
+
         [HttpPost]
         public IActionResult Submit(Post post)
         {
             redditService.Create(post);
-            return View("../Reddit/index", redditService.GetAllElements());
+            return RedirectToAction("../Reddit/index");
         }
 
         [HttpPost]

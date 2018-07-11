@@ -15,21 +15,13 @@ namespace TheRedditEF.Repositories
         {
 
         }
-        /*
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<PostUser>()
-            .HasKey(bc => new { bc.PostID, bc.UserID });
-
-            modelBuilder.Entity<PostUser>()
-                .HasOne(ba => ba.Post)
-                .WithMany(b => b.Users)
-                .HasForeignKey(bc => bc.PostID);
-
-            modelBuilder.Entity<PostUser>()
-                .HasOne(bc => bc.User)
-                .WithMany(c => c.WrtittenPosts)
-                .HasForeignKey(bc => bc.UserID);
-        }*/
+            modelBuilder.Entity<Post>()
+            .HasOne<User>(s => s.User)
+            .WithMany(g => g.WrittenPosts)
+            .HasForeignKey(s => s.UserID);
+        }
     }
 }

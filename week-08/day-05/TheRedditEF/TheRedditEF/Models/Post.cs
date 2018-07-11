@@ -15,5 +15,6 @@ namespace TheRedditEF.Models
         [DefaultValue(0)]
         public int Score { get; set; }
         public User User { get; set; }
+        public long UserID { get; set; }
     }
 }
