@@ -139,5 +139,12 @@ namespace TheRedditEF.Controllers
             };
             return View("../Reddit/index", redditList);
         }
+
+        [HttpPost("/Reddit/deleteuser")]
+        public IActionResult DeleteUser()
+        {
+            redditService.DeleteUser(redditService.GetLoginUser().Id);
+            return View("../Reddit/login");
+        }
     }
 }

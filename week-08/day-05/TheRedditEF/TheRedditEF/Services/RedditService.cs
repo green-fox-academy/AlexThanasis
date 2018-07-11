@@ -138,7 +138,6 @@ namespace TheRedditEF.Services
             }
         }
 
-
         public void CreateUser(User user)
         {
             userRepository.Create(user);
