@@ -1,0 +1,11 @@
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\bin\Debug\netcoreapp2.0\TheRedditCloneRESTApi.deps.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\bin\Debug\netcoreapp2.0\TheRedditCloneRESTApi.runtimeconfig.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\bin\Debug\netcoreapp2.0\TheRedditCloneRESTApi.runtimeconfig.dev.json
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\bin\Debug\netcoreapp2.0\TheRedditCloneRESTApi.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.csprojAssemblyReference.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.csproj.CoreCompileInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.AssemblyInfoInputs.cache
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.AssemblyInfo.cs
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\bin\Debug\netcoreapp2.0\TheRedditCloneRESTApi.pdb
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.dll
+C:\Users\Alex_GR\Desktop\Green Fox Academy\greenfox\AlexThanasis\week-09\day-03\TheRedditCloneRESTApi\TheRedditCloneRESTApi\obj\Debug\netcoreapp2.0\TheRedditCloneRESTApi.pdb
