@@ -25,7 +25,8 @@ namespace TheRedditEF.Services
 
         public User GetLoginUser()
         {
-            return userRepository.GetAllElements().Where(u => u.IsLoggedIn == true).FirstOrDefault();
+            User loginnedUser = userRepository.GetAllElements().Where(u => u.IsLoggedIn == true).FirstOrDefault();
+            return loginnedUser;
         }
 
         public void Down(long id)

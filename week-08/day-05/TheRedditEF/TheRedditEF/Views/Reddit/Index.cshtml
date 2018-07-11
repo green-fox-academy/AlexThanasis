@@ -14,7 +14,7 @@
             <br/>
             <a href="/createpost" class="btn btn-info">Submit new post</a>
             <h2 class="h2">Trending posts</h2>
-            <p>Hello @Model.User.Name</p>
+            <p>Hello @Model.User.Name!</p>
             <div class="btn-group">
             </div>
             <table class="table table-striped">
@@ -22,9 +22,11 @@
                     <tr>
                         <th>Score</th>
                         <th>Upvote</th>
-                       
                         <th>Down</th>
                         <th>Content</th>
+                        <th>Posted by</th>
+                        <th>Created at</th>
+
                     </tr>
                 </thead>
                 <tbody>
@@ -37,7 +39,9 @@
                                 <td><form action="/Reddit/Upvote?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
                                 <td><form action="/Reddit/Down?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
                                 <td><a href="/Reddit/ViewImage?id=@Model.ListOfPosts[i].Id"> @Model.ListOfPosts[i].Content</a></td>
+                                <td>@Model.ListOfUsers.Where(user => user.Id == Model.ListOfPosts[i].UserID).FirstOrDefault().Name </td>
                                 <td>@Model.ListOfPosts[i].CreatedAt</td>
+
                             </tr>
                         }
                     }
@@ -50,11 +54,12 @@
                                 <td><form action="/Reddit/Upvote?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
                                 <td><form action="/Reddit/Down?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
                                 <td><a href="/Reddit/ViewImage?post=@Model.ListOfPosts[i].Id"> @Model.ListOfPosts[i].Content</a></td>
+                                <td>@Model.ListOfUsers.Where(user => user.Id == Model.ListOfPosts[i].UserID).FirstOrDefault().Name </td>
                                 <td>@Model.ListOfPosts[i].CreatedAt</td>
                             </tr>
                         }
                     }
-                    @if (Model == null)
+                    @if (Model.ListOfPosts == null)
                     {
                         <p>There are no records yet! </p>
                     }

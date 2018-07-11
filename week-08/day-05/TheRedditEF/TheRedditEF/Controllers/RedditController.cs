@@ -22,7 +22,8 @@ namespace TheRedditEF.Controllers
             ViewModels.PostUser redditList = new ViewModels.PostUser()
             {
                 ListOfPosts = redditService.GetAllElements(),
-                User = redditService.GetLoginUser()
+                User = redditService.GetLoginUser(),
+                ListOfUsers = redditService.GetAllUsers()
             };
             return View(redditList);
         }
@@ -43,7 +44,7 @@ namespace TheRedditEF.Controllers
             return View();
         }
 
-        [HttpPost("/loginuser")]
+        [HttpPost("/Reddit/loginuser")]
         public IActionResult LoginUser(User user)
         {
             redditService.Login(user);           
