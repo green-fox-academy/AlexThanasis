@@ -23,6 +23,11 @@ namespace TheRedditEF.Services
             postRepository.Update(postRepository.GetAllElements().Where(x => x.Id == id).First());
         }
 
+        public User GetLoginUser()
+        {
+            return userRepository.GetAllElements().Where(u => u.IsLoggedIn == true).FirstOrDefault();
+        }
+
         public void Down(long id)
         {
             postRepository.GetAllElements().Where(x => x.Id == id).First().Score -= 1;
@@ -33,6 +38,31 @@ namespace TheRedditEF.Services
         {
             var selectedTodo = postRepository.GetAllElements().Where(x => x.Id == id).First();
             return selectedTodo;
+        }
+
+        public void Login(User user)
+        {
+            if (TestLoginUser(user))
+            {
+                user.IsLoggedIn = true;
+            }
+            else
+            {
+                user.IsLoggedIn = false;
+            }
+        }
+
+        public bool TestLoginUser(User user)
+        {
+            var currentUser = userRepository.GetAllElements().Where(u => u.Name == user.Name).FirstOrDefault();
+            if (currentUser.Password == user.Password)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public void Delete(long id)

@@ -21,7 +21,8 @@ namespace TheRedditEF.Controllers
         {
             ViewModels.PostUser redditList = new ViewModels.PostUser()
             {
-                ListOfPosts = redditService.GetAllElements()
+                ListOfPosts = redditService.GetAllElements(),
+                User = redditService.GetLoginUser()
             };
             return View(redditList);
         }
@@ -42,9 +43,11 @@ namespace TheRedditEF.Controllers
             return View();
         }
 
-        public IActionResult LoginUser()
+        [HttpPost("/loginuser")]
+        public IActionResult LoginUser(User user)
         {
-            return View();
+            redditService.Login(user);           
+            return RedirectToAction("../Reddit/index");
         }
 
         [HttpPost("/edit")]
@@ -115,14 +118,7 @@ namespace TheRedditEF.Controllers
             return View("../index", redditService.GetAllElements());
         }
 
-        public IActionResult LoginResult(User user)
-        {
-            if (redditService.TestUser(user))
-            {
-                redditService.GetAllUsers().Where(x => x.Name == user.Name).First().IsLoggedIn = true; ;
-            }
-            return View("../Reddit/index");
-        }
+        
 
         public IActionResult Logout()
         {
