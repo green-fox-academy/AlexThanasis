@@ -16,6 +16,7 @@ namespace TheRedditEF.Controllers
         {
             this.redditService = redditService;
         }
+
         public IActionResult Index()
         {
             ViewModels.PostUser redditList = new ViewModels.PostUser()
@@ -115,19 +116,6 @@ namespace TheRedditEF.Controllers
                 redditService.GetAllUsers().Where(x => x.Name == user.Name).First().IsLoggedIn = true; ;
             }
             return View("../Reddit/index");
-        }
-        public IActionResult SaveSignUpTest()
-        {
-            User user = new User()
-            {
-                Name = "TestMan",
-                Email = "wtf@wtf.hu",
-                IsLoggedIn = true,
-                Password = "123test"
-            };
-            
-            redditService.CreateUser(user);
-            return View("../Reddit/index", redditService.GetAllElements());
         }
 
         public IActionResult Logout()

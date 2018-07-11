@@ -1,4 +1,4 @@
-﻿
+﻿@model Post
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,3 +6,33 @@
 
 <h2>Edit</h2>
 
+<div class="container-fluid">
+    <table class="table table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Content</th>
+            <th>URL</th>
+            <th>Created at</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Content</td>
+            <td>@Model.Url</td>
+            <td>@Model.CreatedAt</td>
+            <td></td>
+        </tr>
+    <tr class="info">
+        <td>@Model.Id</td>
+        <form action="/Reddit/Update" method="post">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <td><input type="text" name="content" value="" placeholder="update content" /></td>
+            <td><input type="text" name="url" value="" placeholder="update url" /></td>
+            <input type="hidden" name="createdat" value="@Model.CreatedAt" />
+            <td><button type="submit" class="btn btn-danger"> <span class="glyphicon glyphicon-floppy-open" aria-hidden="true"></span></button></td>
+        </form>
+        <td><form action="/Reddit/Index" method="post"><button type="submit" class="btn btn-primary"> <span class="glyphicon glyphicon glyphicon-arrow-up" aria-hidden="true"></span></button></form></td>
+    </tr>
+</table>
+<footer class="panel-footer">Click in the forms and click on the button to update</footer>
+</div>
