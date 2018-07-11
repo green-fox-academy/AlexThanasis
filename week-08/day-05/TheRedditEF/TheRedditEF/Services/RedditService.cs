@@ -17,39 +17,22 @@ namespace TheRedditEF.Services
             this.userRepository = userRepository;
         }
 
-        public void Upvote(long id)
-        {
-            postRepository.GetAllElements().Where(x => x.Id == id).First().Score += 1;
-            postRepository.Update(postRepository.GetAllElements().Where(x => x.Id == id).First());
-        }
-
         public User GetLoginUser()
         {
             User loginnedUser = userRepository.GetAllElements().Where(u => u.IsLoggedIn == true).FirstOrDefault();
             return loginnedUser;
         }
 
-        public void Down(long id)
-        {
-            postRepository.GetAllElements().Where(x => x.Id == id).First().Score -= 1;
-            postRepository.Update(postRepository.GetAllElements().Where(x => x.Id == id).First());
-        }
-
-        public Post Edit(long id)
-        {
-            var selectedTodo = postRepository.GetAllElements().Where(x => x.Id == id).First();
-            return selectedTodo;
-        }
-
         public void Login(User user)
         {
             if (TestLoginUser(user))
             {
-                user.IsLoggedIn = true;
+                User currentUser = userRepository.GetAllElements().Where(u => u.Name == user.Name).FirstOrDefault();
+                currentUser.IsLoggedIn = true;
+                userRepository.Update(currentUser);
             }
             else
             {
-                user.IsLoggedIn = false;
             }
         }
 
@@ -65,6 +48,26 @@ namespace TheRedditEF.Services
                 return false;
             }
         }
+
+        public void Upvote(long id)
+        {
+            postRepository.GetAllElements().Where(x => x.Id == id).First().Score += 1;
+            postRepository.Update(postRepository.GetAllElements().Where(x => x.Id == id).First());
+        }
+
+        public void Down(long id)
+        {
+            postRepository.GetAllElements().Where(x => x.Id == id).First().Score -= 1;
+            postRepository.Update(postRepository.GetAllElements().Where(x => x.Id == id).First());
+        }
+
+        public Post Edit(long id)
+        {
+            var selectedTodo = postRepository.GetAllElements().Where(x => x.Id == id).First();
+            return selectedTodo;
+        }
+
+
 
         public void Delete(long id)
         {

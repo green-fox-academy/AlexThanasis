@@ -47,7 +47,7 @@ namespace TheRedditEF.Controllers
         [HttpPost("/Reddit/loginuser")]
         public IActionResult LoginUser(User user)
         {
-            redditService.Login(user);           
+            redditService.Login(user);
             return RedirectToAction("../Reddit/index");
         }
 
@@ -118,8 +118,6 @@ namespace TheRedditEF.Controllers
             redditService.CreateUser(user);
             return View("../index", redditService.GetAllElements());
         }
-
-        
 
         public IActionResult Logout()
         {
