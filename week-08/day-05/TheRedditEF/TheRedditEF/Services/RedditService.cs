@@ -63,11 +63,9 @@ namespace TheRedditEF.Services
 
         public Post Edit(long id)
         {
-            var selectedTodo = postRepository.GetAllElements().Where(x => x.Id == id).First();
-            return selectedTodo;
+            var selectedPost = postRepository.GetAllElements().Where(x => x.Id == id).First();
+            return selectedPost;
         }
-
-
 
         public void Delete(long id)
         {
@@ -76,6 +74,7 @@ namespace TheRedditEF.Services
 
         public void Update(Post post)
         {
+            post.UserID = GetLoginUser().Id;
             postRepository.Update(post);
         }
 
@@ -91,6 +90,7 @@ namespace TheRedditEF.Services
 
         public void Create(Post element)
         {
+            element.UserID = GetLoginUser().Id;
             postRepository.Create(element);
         }
 
@@ -138,6 +138,7 @@ namespace TheRedditEF.Services
             }
         }
 
+
         public void CreateUser(User user)
         {
             userRepository.Create(user);
@@ -151,9 +152,25 @@ namespace TheRedditEF.Services
 
         public void Logout()
         {
-            var userToLogOut = userRepository.GetAllElements().Where(x => x.IsLoggedIn == true).First();
-            userToLogOut.IsLoggedIn = false;
-            userRepository.Update(userToLogOut);
+            var userToLogOut = userRepository.GetAllElements().Where(x => x.IsLoggedIn == true).ToList();
+            foreach (var item in userToLogOut)
+            {
+                item.IsLoggedIn = false;
+                userRepository.Update(item);
+            } 
+        }
+
+        public List<Post> RedditAllPostsOfUser()
+        {
+            List<Post> tempList = new List<Post>();
+            foreach (var item in postRepository.GetAllElements())
+            {
+                if (item.UserID == GetLoginUser().Id)
+                {
+                    tempList.Add(item);
+                }
+            }
+            return tempList;
         }
     }
 }

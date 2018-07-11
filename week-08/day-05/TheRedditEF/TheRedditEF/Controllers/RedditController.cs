@@ -51,7 +51,7 @@ namespace TheRedditEF.Controllers
             return RedirectToAction("../Reddit/index");
         }
 
-        [HttpPost("/edit")]
+        [HttpPost("/Reddit/edit")]
         public IActionResult Edit(long id)
         {
             return View(redditService.GetElementById(id));
@@ -64,18 +64,18 @@ namespace TheRedditEF.Controllers
             return RedirectToAction("../Reddit/index");
         }
 
-        [HttpPost]
+        [HttpPost("/Reddit/delete")]
         public IActionResult Delete(long id)
         {
             redditService.Delete(id);
-            return Redirect("../index");
+            return RedirectToAction("../Reddit/index");
         }
 
         [HttpPost]
         public IActionResult Update(Post post)
         {
             redditService.Update(post);
-            return Redirect("../index");
+            return RedirectToAction("../Reddit/index");
         }
 
         [HttpPost]
@@ -98,7 +98,9 @@ namespace TheRedditEF.Controllers
             tempList.Add(redditService.SearchPost(post));
             ViewModels.PostUser redditList = new ViewModels.PostUser()
             {
-                ListOfPosts = tempList
+                ListOfPosts = tempList,
+                User = redditService.GetLoginUser(),
+                ListOfUsers = redditService.GetAllUsers()
             };
             return View("../Reddit/index", redditList);
         }
@@ -116,13 +118,26 @@ namespace TheRedditEF.Controllers
         public IActionResult SaveSignUp(User user)
         {
             redditService.CreateUser(user);
-            return View("../index", redditService.GetAllElements());
+            redditService.Login(user);
+            return RedirectToAction("../index");
         }
 
         public IActionResult Logout()
         {
             redditService.Logout();
             return View("../Reddit/login");
+        }
+
+        [HttpGet("/Reddit/showallofmyposts")]
+        public IActionResult ShowAllOfMyPosts()
+        {
+            ViewModels.PostUser redditList = new ViewModels.PostUser()
+            {
+                ListOfPosts = redditService.RedditAllPostsOfUser(),
+                User = redditService.GetLoginUser(),
+                ListOfUsers = redditService.GetAllUsers()
+            };
+            return View("../Reddit/index", redditList);
         }
     }
 }
