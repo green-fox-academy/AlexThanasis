@@ -1,4 +1,4 @@
-﻿@model List<Post>
+﻿@model  TheRedditEF.ViewModels.PostUser
 @{
     ViewData["Title"] = "List";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -26,29 +26,29 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @if (Model.Count < 10)
+                    @if (Model.ListOfPosts.Count < 10)
                     {
-                        @for (int i = 0; i < Model.Count; i++)
+                        @for (int i = 0; i < Model.ListOfPosts.Count; i++)
                         {
                             <tr align="center">
-                                <td>@Model[i].Score</td>
-                                <td><form action="/Reddit/Upvote?id=@Model[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
-                                <td><form action="/Reddit/Down?id=@Model[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
-                                <td><a href="/Reddit/ViewImage?post=@Model[i].Id"> @Model[i].Content</a></td>
-                                <td>@Model[i].CreatedAt</td>
+                                <td>@Model.ListOfPosts[i].Score</td>
+                                <td><form action="/Reddit/Upvote?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
+                                <td><form action="/Reddit/Down?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
+                                <td><a href="/Reddit/ViewImage?id=@Model.ListOfPosts[i].Id"> @Model.ListOfPosts[i].Content</a></td>
+                                <td>@Model.ListOfPosts[i].CreatedAt</td>
                             </tr>
                         }
                     }
-                    @if (Model.Count > 10)
+                    @if (Model.ListOfPosts.Count > 10)
                     {
                         @for (int i = 0; i < 10; i++)
                         {
                             <tr align="center">
-                                <td>@Model[i].Score</td>
-                                <td><form action="/Reddit/Upvote?id=@Model[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
-                                <td><form action="/Reddit/Down?id=@Model[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
-                                <td><a href="/Reddit/ViewImage?post=@Model[i].Id"> @Model[i].Content</a></td>
-                                <td>@Model[i].CreatedAt</td>
+                                <td>@Model.ListOfPosts[i].Score</td>
+                                <td><form action="/Reddit/Upvote?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-success" type="submit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
+                                <td><form action="/Reddit/Down?id=@Model.ListOfPosts[i].Id" method="post"><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button></form></td>
+                                <td><a href="/Reddit/ViewImage?post=@Model.ListOfPosts[i].Id"> @Model.ListOfPosts[i].Content</a></td>
+                                <td>@Model.ListOfPosts[i].CreatedAt</td>
                             </tr>
                         }
                     }

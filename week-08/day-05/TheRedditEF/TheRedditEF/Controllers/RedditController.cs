@@ -18,7 +18,11 @@ namespace TheRedditEF.Controllers
         }
         public IActionResult Index()
         {
-            return View(redditService.GetAllElements());
+            ViewModels.PostUser redditList = new ViewModels.PostUser()
+            {
+                ListOfPosts = redditService.GetAllElements()
+            };
+            return View(redditList);
         }
 
         [Route("/createpost")]
@@ -67,21 +71,25 @@ namespace TheRedditEF.Controllers
         public IActionResult Upvote(long id)
         {
             redditService.Upvote(id);
-            return View("../Reddit/index", redditService.GetAllElements());
+            return RedirectToAction("../Reddit/index");
         }
 
         [HttpPost]
         public IActionResult Down(long id)
         {
             redditService.Down(id);
-            return View("../Reddit/index", redditService.GetAllElements());
+            return RedirectToAction("../Reddit/index");
         }
 
         public IActionResult SearchPost(Post post)
         {
             List<Post> tempList = new List<Post>();
             tempList.Add(redditService.SearchPost(post));
-            return View("../Reddit/index", tempList);
+            ViewModels.PostUser redditList = new ViewModels.PostUser()
+            {
+                ListOfPosts = tempList
+            };
+            return View("../Reddit/index", redditList);
         }
 
         public IActionResult Service(Post post)

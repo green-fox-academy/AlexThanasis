@@ -13351,11 +13351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-05\\TheRedditEF\\TheRedditEF\\TheRedditEF.csproj",
+      "projectUniqueName": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\TheRedditEF\\TheRedditEF\\TheRedditEF.csproj",
       "projectName": "TheRedditEF",
-      "projectPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-05\\TheRedditEF\\TheRedditEF\\TheRedditEF.csproj",
+      "projectPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\TheRedditEF\\TheRedditEF\\TheRedditEF.csproj",
       "packagesPath": "C:\\Users\\Alex_GR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex_GR\\Desktop\\Green Fox Academy\\greenfox\\AlexThanasis\\week-08\\day-05\\TheRedditEF\\TheRedditEF\\obj\\",
+      "outputPath": "C:\\Users\\Alex_GR\\Documents\\Visual Studio 2017\\Projects\\TheRedditEF\\TheRedditEF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
