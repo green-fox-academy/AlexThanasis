@@ -14,6 +14,7 @@ public class RedditController {
 
     @GetMapping("")
     public String renderIndex(Model model){
-
+        model.addAttribute("posts", redditService.FindAllPosts());
+        return "index";
     }
 }
