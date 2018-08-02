@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Movie database</h1>
+<table>
+   <thead>
+  <tr>
+      <td>ID</td>
+      <td>Rating</td>
+      <td>Title</td>
+  </tr>
+   </thead>
+    <tbody>
+    <tr th:each="movie : ${movies}">
+        <td th:text="${movie.getId()}"></td>
+        <td th:text="${movie.getRating()}"></td>
+        <td th:text="${movie.getTitle()}"></td>
+    </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
