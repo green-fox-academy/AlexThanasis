@@ -9,4 +9,5 @@ import java.util.List;
 public interface MovieServices {
     List<Movie> FindAllMovies();
 
+    void save(Movie movie);
 }
