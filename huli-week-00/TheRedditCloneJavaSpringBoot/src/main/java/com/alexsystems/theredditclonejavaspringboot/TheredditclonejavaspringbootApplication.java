@@ -1,0 +1,12 @@
+package com.alexsystems.theredditclonejavaspringboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TheredditclonejavaspringbootApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TheredditclonejavaspringbootApplication.class, args);
+    }
+}

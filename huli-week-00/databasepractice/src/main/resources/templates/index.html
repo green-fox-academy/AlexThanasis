@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -18,14 +18,18 @@
   </tr>
    </thead>
     <tbody>
-    <tr th:each="movie : ${movies}">
-        <td th:text="${movie.getId()}"></td>
-        <td th:text="${movie.getRating()}"></td>
-        <td th:text="${movie.getTitle()}"></td>
+    <tr th:each="movie : ${movies}" th:object="${movie}">
+        <td th:text="*{getId()}"></td>
+        <td th:text="*{getRating()}"></td>
+        <td th:text="*{getTitle()}"></td>
     </tr>
     </tbody>
-
 </table>
-
+</br>
+<form th:object="${newMovie}" action="addMovie" method="post">
+    <input type="text" field="title">
+    <input type="text" field="rating">
+    <button type="submit">Add new movie </button>
+</form>
 </body>
 </html>
