@@ -1,5 +1,6 @@
 package com.alexsystems.theredditclonejavaspringboot.Controllers;
 
+import com.alexsystems.theredditclonejavaspringboot.Models.Post;
 import com.alexsystems.theredditclonejavaspringboot.Services.RedditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,6 +15,7 @@ public class RedditController {
 
     @GetMapping("")
     public String renderIndex(Model model){
+        redditService.addPost(new Post());
         model.addAttribute("posts", redditService.FindAllPosts());
         return "index";
     }

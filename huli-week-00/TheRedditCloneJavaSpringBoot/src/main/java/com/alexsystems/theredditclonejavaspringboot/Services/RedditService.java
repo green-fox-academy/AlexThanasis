@@ -8,4 +8,6 @@ import java.util.List;
 @Service
 public interface RedditService {
     List<Post> FindAllPosts();
+
+    void addPost(Post post);
 }

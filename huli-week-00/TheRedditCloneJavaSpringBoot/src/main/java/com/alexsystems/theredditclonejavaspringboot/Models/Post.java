@@ -1,8 +1,15 @@
 package com.alexsystems.theredditclonejavaspringboot.Models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class Post {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String content;
     private String url;
@@ -10,11 +17,11 @@ public class Post {
     private int score;
     private long userId;
 
-    public Post(String content, String url, Date createdAt, int score, long userId) {
+    public Post(String content, String url, int score, long userId) {
         this.content = content;
         this.url = url;
-        this.createdAt = createdAt;
         this.score = score;
+        this.userId = userId;
     }
 
     public long getId() {
