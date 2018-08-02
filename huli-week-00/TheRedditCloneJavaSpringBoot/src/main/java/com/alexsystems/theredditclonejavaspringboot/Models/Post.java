@@ -17,11 +17,10 @@ public class Post {
     private int score;
     private long userId;
 
-    public Post(String content, String url, int score, long userId) {
+    public Post(String content, String url, int score) {
         this.content = content;
         this.url = url;
         this.score = score;
-        this.userId = userId;
     }
 
     public long getId() {

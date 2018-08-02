@@ -15,7 +15,7 @@ public class RedditController {
 
     @GetMapping("")
     public String renderIndex(Model model){
-        redditService.addPost(new Post());
+        redditService.addPost(new Post("TestCatPics", "https://http.cat/100", 10 ));
         model.addAttribute("posts", redditService.FindAllPosts());
         return "index";
     }

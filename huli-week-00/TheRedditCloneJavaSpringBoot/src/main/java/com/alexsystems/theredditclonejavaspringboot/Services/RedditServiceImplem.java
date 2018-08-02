@@ -5,6 +5,7 @@ import com.alexsystems.theredditclonejavaspringboot.Repositories.RedditRepositor
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -20,6 +21,7 @@ public class RedditServiceImplem implements RedditService{
 
     @Override
     public void addPost(Post post) {
-
+        //TODO: datetime You moron!!!
+        redditRepository.save(post);
     }
 }
