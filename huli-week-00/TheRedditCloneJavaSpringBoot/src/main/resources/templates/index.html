@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css" th:href="@{/style.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -15,7 +15,8 @@
         <table>
             <thead>
             <tr>
-                <td>ID</td>
+                <td>Vote up</td>
+                <td>or down!</td>
                 <td>Score</td>
                 <td>Title</td>
                 <td>Created at</td>
@@ -23,7 +24,8 @@
             </thead>
             <tbody>
             <tr th:each="post : ${posts}" th:object="${post}">
-                <td th:text="${post.getId()}"></td>
+                <td up></td>
+                <td>down</td>
                 <td th:text="${post.getScore()}"></td>
                 <td th:text="${post.getContent()}"></td>
                 <td th:text="${post.getCreatedAt()}"></td>
