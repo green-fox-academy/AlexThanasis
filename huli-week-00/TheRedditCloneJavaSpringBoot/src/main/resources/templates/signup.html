@@ -28,9 +28,9 @@
 <body>
 <div id="accountbox">
 <p id="titleofbox">SIGN UP</p>
-<form action="/savesignup" method="post">
+<form action="/savesignup" th:object="${user}" method="post">
     <label for="username">USERNAME</label></br>
-    <input type="text" id="username" name="name" autofocus required></br></br>
+    <input type="text" id="username" name="name" th:field="*{name}" autofocus required></br></br>
     <label for="email">E-MAIL</label></br>
     <input type="text" id="email" name="email"></br></br>
     <label for="password">PASSWORD</label></br>
