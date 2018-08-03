@@ -9,4 +9,8 @@ import java.util.List;
 public interface RedditService {
     List<Post> FindAllPosts();
     void addPost(Post post);
+
+    void upvoteSelectedPost(Integer id);
+
+    void downvoteSelectedPost(Integer id);
 }

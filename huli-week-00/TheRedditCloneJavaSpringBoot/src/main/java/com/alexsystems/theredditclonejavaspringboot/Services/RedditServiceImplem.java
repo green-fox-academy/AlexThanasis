@@ -24,4 +24,18 @@ public class RedditServiceImplem implements RedditService{
         //TODO: datetime You moron!!!
         redditRepository.save(post);
     }
+
+    @Override
+    public void upvoteSelectedPost(Integer id) {
+        Post tempPost = redditRepository.findById((long)id).get();
+        tempPost.setScore( tempPost.getScore() + 1 );
+        redditRepository.save(tempPost);
+    }
+
+    @Override
+    public void downvoteSelectedPost(Integer id) {
+        Post tempPost = redditRepository.findById((long)id).get();
+        tempPost.setScore( tempPost.getScore() - 1 );
+        redditRepository.save(tempPost);
+    }
 }

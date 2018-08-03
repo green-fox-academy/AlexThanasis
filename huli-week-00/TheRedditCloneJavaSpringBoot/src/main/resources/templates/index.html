@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <head>
-    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.css}">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -12,23 +12,36 @@
         </br>
         <h1>Welcome to the Reddit clone</h1>
         <br>
+        <a href="/createpost" class="btn btn-info">Submit new post</a><a href="/Reddit/showallofmyposts" class="btn btn-primary">Show all of my post</a>
+        <h2 class="h2">Trending posts</h2>
         <table>
             <thead>
             <tr>
-                <td>Vote up</td>
-                <td>or down!</td>
-                <td>Score</td>
-                <td>Title</td>
-                <td>Created at</td>
+                <th>Score</th>
+                <th>Upvote</th>
+                <th>Down</th>
+                <th>Content</th>
+                <th>Posted by</th>
+                <th>Created at</th>
+                <th></th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
             <tr th:each="post : ${posts}" th:object="${post}">
-                <td up></td>
-                <td>down</td>
+
                 <td th:text="${post.getScore()}"></td>
+                <td>
+                    <form action="/upvote" method="post"><button class="btn-success" type="submit">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
+                <td><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true">
+
+                </span></button></td>
                 <td th:text="${post.getContent()}"></td>
+                <td>    </td>
                 <td th:text="${post.getCreatedAt()}"></td>
+                <td></td>
+                <td></td>
             </tr>
             </tbody>
         </table>
