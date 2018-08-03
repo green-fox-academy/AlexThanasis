@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.css}">
     <title>Title</title>
 </head>
 <body>
 <h2>View the image</h2>
-<img style="-webkit-user-select: none;" src="@Model.Url">
+<img style="-webkit-user-select: none;" th:src="${post.getUrl()}">
 <br/>
-<a class="btn btn-danger" href="/index">back</a>
+<a class="btn btn-danger" href="/">back</a>
 </body>
 </html>

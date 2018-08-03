@@ -10,7 +10,9 @@ public interface RedditService {
     List<Post> FindAllPosts();
     void addPost(Post post);
 
-    void upvoteSelectedPost(Integer id);
+    void upvoteSelectedPost(Long id);
 
-    void downvoteSelectedPost(Integer id);
+    void downvoteSelectedPost(Long id);
+
+    Post getPostById(Long id);
 }

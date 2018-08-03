@@ -26,16 +26,21 @@ public class RedditServiceImplem implements RedditService{
     }
 
     @Override
-    public void upvoteSelectedPost(Integer id) {
-        Post tempPost = redditRepository.findById((long)id).get();
+    public void upvoteSelectedPost(Long id) {
+        Post tempPost = redditRepository.findById(id).get();
         tempPost.setScore( tempPost.getScore() + 1 );
         redditRepository.save(tempPost);
     }
 
     @Override
-    public void downvoteSelectedPost(Integer id) {
-        Post tempPost = redditRepository.findById((long)id).get();
+    public void downvoteSelectedPost(Long id) {
+        Post tempPost = redditRepository.findById(id).get();
         tempPost.setScore( tempPost.getScore() - 1 );
         redditRepository.save(tempPost);
+    }
+
+    @Override
+    public Post getPostById(Long id){
+        return redditRepository.findById(id).get();
     }
 }

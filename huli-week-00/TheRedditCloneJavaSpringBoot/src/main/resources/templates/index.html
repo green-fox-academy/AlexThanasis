@@ -15,7 +15,7 @@
         <a href="/createpost" class="btn btn-info">Submit new post</a>
         <a href="/showallofmyposts" class="btn btn-primary">Show all of my post</a>
         <h2 class="h2">Trending posts</h2>
-        <table>
+        <table class="table table-striped">
             <thead>
             <tr>
                 <th>Score</th>
@@ -45,7 +45,10 @@
                         </button>
                     </form>
                     </td>
-                <td th:text="${post.getContent()}"></td>
+                <!--<td th:text="${post.getContent()}"></td>-->
+                <td>
+                    <a th:href="@{${post.getId()}+'/getviewimage'}" th:text="${post.getContent()}"></a></td>
+
                 <td>  Posted by test  </td>
                 <td th:text="${post.getCreatedAt()}"></td>
                 <td></td>

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
@@ -17,7 +18,6 @@ public class RedditController {
 
     @GetMapping("")
     public String renderIndex(Model model){
-        redditService.addPost(new Post("TestCatPics", "https://http.cat/100", 10 ));
         model.addAttribute("posts", redditService.FindAllPosts());
         return "index";
     }
@@ -35,14 +35,20 @@ public class RedditController {
     }
 
     @PostMapping("/upvote")
-    public String upVote(@ModelAttribute(value = "id") Integer id){
+    public String upVote(@ModelAttribute(value = "id") Long id){
         redditService.upvoteSelectedPost(id);
         return "redirect:/";
     }
 
     @PostMapping("/downvote")
-    public String downVote(@ModelAttribute(value = "id") Integer id){
+    public String downVote(@ModelAttribute(value = "id") Long id){
         redditService.downvoteSelectedPost(id);
         return "redirect:/";
+    }
+
+    @GetMapping("{id}/getviewimage")
+    public String getViewImage(@PathVariable(value="id") Long id, Model model){
+        model.addAttribute("post", redditService.getPostById(id));
+        return "viewimage";
     }
 }
