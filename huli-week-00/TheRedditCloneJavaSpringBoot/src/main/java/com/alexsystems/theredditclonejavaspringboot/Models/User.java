@@ -1,11 +1,10 @@
 package com.alexsystems.theredditclonejavaspringboot.Models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
+@Table(name="USER")
 public class User {
 
     @Id
@@ -15,12 +14,22 @@ public class User {
     private String description;
     private String password;
     private String email;
+    @OneToMany(mappedBy = "USER")
+    private List<Post> posts;
 
     public User(String name, String description, String password, String email) {
         this.name = name;
         this.description = description;
         this.password = password;
         this.email = email;
+    }
+
+    public List<Post> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<Post> posts) {
+        this.posts = posts;
     }
 
     public User() {
@@ -65,4 +74,6 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
 }

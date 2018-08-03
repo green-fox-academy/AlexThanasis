@@ -1,12 +1,10 @@
 package com.alexsystems.theredditclonejavaspringboot.Models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
+@Table(name="POSTS")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -16,6 +14,18 @@ public class Post {
     private Date createdAt;
     private int score;
     private long userId;
+    @ManyToOne
+    //JoinCol can be deletable
+    @JoinColumn(name="user_id", nullable=false)
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public Post(String content, String url, int score) {
         this.content = content;
