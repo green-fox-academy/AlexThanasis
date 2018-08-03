@@ -12,7 +12,8 @@
         </br>
         <h1>Welcome to the Reddit clone</h1>
         <br>
-        <a href="/createpost" class="btn btn-info">Submit new post</a><a href="/Reddit/showallofmyposts" class="btn btn-primary">Show all of my post</a>
+        <a href="/createpost" class="btn btn-info">Submit new post</a>
+        <a href="/showallofmyposts" class="btn btn-primary">Show all of my post</a>
         <h2 class="h2">Trending posts</h2>
         <table>
             <thead>
@@ -29,16 +30,23 @@
             </thead>
             <tbody>
             <tr th:each="post : ${posts}" th:object="${post}">
-
                 <td th:text="${post.getScore()}"></td>
                 <td>
-                    <form action="/upvote" method="post"><button class="btn-success" type="submit">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></form></td>
-                <td><button class="btn-danger" type="submit"><span class="glyphicon glyphicon-minus" aria-hidden="true">
-
-                </span></button></td>
+                    <form action="/upvote" method="post">
+                        <button class="btn-success" type="submit" name="id" th:value="${post.id}">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <form action="/downvote" method="post">
+                        <button class="btn-danger" type="submit" name="id" th:value="${post.id}">
+                        <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                        </button>
+                    </form>
+                    </td>
                 <td th:text="${post.getContent()}"></td>
-                <td>    </td>
+                <td>  Posted by test  </td>
                 <td th:text="${post.getCreatedAt()}"></td>
                 <td></td>
                 <td></td>
