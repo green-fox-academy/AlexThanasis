@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <style>
+        body {
+            background: lightgrey;
+            padding: 50px;
+        }
+
+        #accountbox {
+            background: #ffffff;
+            width: 330px;
+            height: 330px;
+            font-family: calibri;
+            color: #606060;
+            padding: 50px;
+            border: none;
+        }
+
+        #titleofbox {
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="accountbox">
+<p id="titleofbox">SIGN UP</p>
+<form action="/savesignup" method="post">
+    <label for="username">USERNAME</label></br>
+    <input type="text" id="username" name="name" autofocus required></br></br>
+    <label for="email">E-MAIL</label></br>
+    <input type="text" id="email" name="email"></br></br>
+    <label for="password">PASSWORD</label></br>
+    <input type="text" id="password" name="password">
+    <button class="btn btn-default" type="submit" value="Submit">
+        Submit
+    </button>
+</form>
+</div>
+<br />
+</body>
+</html>
