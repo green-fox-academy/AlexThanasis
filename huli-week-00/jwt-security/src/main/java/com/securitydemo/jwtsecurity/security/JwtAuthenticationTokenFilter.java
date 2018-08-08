@@ -11,20 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class JwtAuthenticationTokenFilter extends AbstractAuthenticationProcessingFilter {
-    
-    private AuthenticationManager authenticationManager;
-    private JwtSuccessHandler authenticationSuccessHandler;
+
+    protected JwtAuthenticationTokenFilter(String defaultFilterProcessesUrl) {
+        super("/**");
+    }
 
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException, IOException, ServletException {
         return null;
     }
 
-    public void setAuthenticationManager(AuthenticationManager authenticationManager) {
-        this.authenticationManager = authenticationManager;
-    }
-
-    public void setAuthenticationSuccessHandler(JwtSuccessHandler authenticationSuccessHandler){
-        this.authenticationSuccessHandler = authenticationSuccessHandler;
-    }
 }
