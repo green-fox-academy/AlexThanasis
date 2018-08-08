@@ -1,5 +1,6 @@
 package com.securitydemo.jwtsecurity.config;
 
+import com.securitydemo.jwtsecurity.security.JwtAuthenticationEntryPoint;
 import com.securitydemo.jwtsecurity.security.JwtAuthenticationProvider;
 import com.securitydemo.jwtsecurity.security.JwtAuthenticationTokenFilter;
 import com.securitydemo.jwtsecurity.security.JwtSuccessHandler;
@@ -12,7 +13,9 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import javax.annotation.Resource;
 import java.util.Collections;
@@ -43,6 +46,11 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable()
         .authorizeRequests()
         .antMatchers("**/rest/**").authenticated()
-        .and().exceptionHandling().authenticationEntryPoint(entryPoint);
+        .and().exceptionHandling().authenticationEntryPoint(entryPoint)
+        .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+
+        http.addFilterBefore(authenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+
+        http.headers().cacheControl()
     }
 }
