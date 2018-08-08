@@ -10,7 +10,7 @@ public class JwtAuthenticationTokenFilter {
         this.authenticationManager = authenticationManager;
     }
 
-    public void setAuthenticationSuccessHandler(JwtSuccessHandler authenticationSuccessHandler{
+    public void setAuthenticationSuccessHandler(JwtSuccessHandler authenticationSuccessHandler){
         this.authenticationSuccessHandler = authenticationSuccessHandler;
     }
 }
