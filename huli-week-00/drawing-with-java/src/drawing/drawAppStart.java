@@ -1,7 +1,7 @@
 package drawing;
 import javax.swing.*;
 
-public class drawAppStart {
+public class    drawAppStart {
     public static void main(String[] args){
         JFrame f = new JFrame("Drawing");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
