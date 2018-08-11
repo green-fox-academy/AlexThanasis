@@ -9,7 +9,9 @@ public class AnimApplet extends JApplet {
     boolean animationDone;
     int centerX, centerY;
     int w, h;
+
     public void init(){
+        centerX = centerY = 200;
         w = h = 100;
         new Thread(){
             @Override
@@ -22,6 +24,7 @@ public class AnimApplet extends JApplet {
             }
         }.start();
     }
+
     public void updateAnimation(){
         w +=2;
         h +=2;
