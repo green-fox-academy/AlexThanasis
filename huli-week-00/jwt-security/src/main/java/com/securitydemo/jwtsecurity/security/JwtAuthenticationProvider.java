@@ -2,6 +2,7 @@ package com.securitydemo.jwtsecurity.security;
 
 import com.securitydemo.jwtsecurity.model.JwtAuthenticationToken;
 import com.securitydemo.jwtsecurity.model.JwtUser;
+import com.securitydemo.jwtsecurity.model.JwtUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
