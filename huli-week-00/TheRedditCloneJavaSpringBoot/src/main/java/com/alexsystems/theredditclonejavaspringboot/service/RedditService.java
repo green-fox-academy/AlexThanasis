@@ -1,6 +1,6 @@
-package com.alexsystems.theredditclonejavaspringboot.Services;
+package com.alexsystems.theredditclonejavaspringboot.service;
 
-import com.alexsystems.theredditclonejavaspringboot.Models.Post;
+import com.alexsystems.theredditclonejavaspringboot.model.Post;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

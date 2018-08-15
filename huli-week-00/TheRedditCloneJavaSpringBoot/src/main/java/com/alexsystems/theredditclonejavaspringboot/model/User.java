@@ -1,4 +1,4 @@
-package com.alexsystems.theredditclonejavaspringboot.Models;
+package com.alexsystems.theredditclonejavaspringboot.model;
 
 import javax.persistence.*;
 import java.util.List;
