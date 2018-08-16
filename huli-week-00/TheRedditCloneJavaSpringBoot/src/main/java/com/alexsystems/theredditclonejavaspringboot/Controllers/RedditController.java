@@ -1,7 +1,7 @@
-package com.alexsystems.theredditclonejavaspringboot.controller;
+package com.alexsystems.theredditclonejavaspringboot.Controllers;
 
-import com.alexsystems.theredditclonejavaspringboot.model.Post;
-import com.alexsystems.theredditclonejavaspringboot.service.RedditService;
+import com.alexsystems.theredditclonejavaspringboot.Models.Post;
+import com.alexsystems.theredditclonejavaspringboot.Services.RedditService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

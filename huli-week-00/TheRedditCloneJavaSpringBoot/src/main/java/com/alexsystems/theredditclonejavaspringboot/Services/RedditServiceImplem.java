@@ -1,7 +1,7 @@
-package com.alexsystems.theredditclonejavaspringboot.service;
+package com.alexsystems.theredditclonejavaspringboot.Services;
 
-import com.alexsystems.theredditclonejavaspringboot.model.Post;
-import com.alexsystems.theredditclonejavaspringboot.repository.RedditRepository;
+import com.alexsystems.theredditclonejavaspringboot.Models.Post;
+import com.alexsystems.theredditclonejavaspringboot.Repositories.RedditRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

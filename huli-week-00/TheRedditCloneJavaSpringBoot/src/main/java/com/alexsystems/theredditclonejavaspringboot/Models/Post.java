@@ -1,10 +1,16 @@
-package com.alexsystems.theredditclonejavaspringboot.model;
+package com.alexsystems.theredditclonejavaspringboot.Models;
+
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
 
+@Getter
+@Setter
+
 @Entity
-@Table(name="POSTS")
+@Table(name="POST")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -13,24 +19,19 @@ public class Post {
     private String url;
     private Date createdAt;
     private int score;
-    private long userId;
-    @ManyToOne
+    private long user_id;
+    //@ManyToOne
     //JoinCol can be deletable
-    @JoinColumn(name="user_id", nullable=false)
-    private User user;
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
+    //@JoinColumn(name="user_id", nullable=false)
+    //private User user;
 
     public Post(String content, String url, int score) {
         this.content = content;
         this.url = url;
         this.score = score;
+    }
+
+    public Post() {
     }
 
     public long getId() {
@@ -39,9 +40,6 @@ public class Post {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public Post() {
     }
 
     public String getContent() {
@@ -76,11 +74,20 @@ public class Post {
         this.score = score;
     }
 
-    public long getUserId() {
-        return userId;
+    public long getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(long userId) {
-        this.userId = userId;
+    public void setUser_id(long user_id) {
+        this.user_id = user_id;
     }
+/*
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+*/
 }

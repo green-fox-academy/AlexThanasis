@@ -7,3 +7,8 @@ insert into user
 (description, name, password, email)
 values
 ('tester', 'Tester', '123', 'testman@test.hu');
+
+insert into post
+(user_id, content, score, url)
+values
+(1, "Cat pic OK", 3, "https://http.cat/100");
