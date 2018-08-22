@@ -13,7 +13,6 @@
         <form action="/addnewfox" th:object="${fox}" method="post">
             <input type="text" th:field="*{name}" required/>
             <input type="text" th:field="*{description}">
-            <input type="text" th:field="*{url}" required/>
             <select th:field="*{color}">
                 <option value="green">Green</option>
                 <option value="red">Red</option>
