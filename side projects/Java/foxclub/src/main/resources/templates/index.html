@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Welcome in the Fox Club</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.css}">
 </head>
 <body>
-<p>Starting page</p>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h1>Welcome to the Fox Club</h1>
+        <br>
+        <a href="/addnewfox" class="btn btn-info">Clone a new Fox</a>
+        <a href="/showallmyfoxes" class="btn btn-primary">Show all my foxes</a>
+        <h2 class="h2">The trending foxes</h2>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Age in days</th>
+                <th>Type</th>
+                <th>Colour</th>
+                <th>Description</th>
+                <th>Knowledge</th>
+                <th>Owner</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="fox : ${foxes}" th:object="${fox}">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 </body>
 </html>
