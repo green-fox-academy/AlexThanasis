@@ -17,6 +17,12 @@ public class FoxController {
         return "index";
     }
 
+    @GetMapping("/addnewfox")
+    public String getToAddNewFox(Model model){
+        model.addAttribute("fox", new Fox());
+        return "addnewfox";
+    }
+
     @PostMapping("/addnewfox")
     public String addNewFox(@ModelAttribute Fox fox){
         foxService.addFox(fox);
