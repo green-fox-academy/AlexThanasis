@@ -12,16 +12,12 @@
 </div><br/>
 <form action="/registration" method="post" th:object="${user}">
     <div>
-        <label for="firstName">First name: </label>
-        <input type="text" name="firstName" id="firstName" th:value="*{firstName}" required>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" th:value="*{name}" required>
     </div>
     <div>
-        <label for="lastName">Last name: </label>
-        <input type="text" name="lastName" id="lastName" th:value="*{lastName}" required>
-    </div>
-    <div>
-        <label for="companyName">Company name: </label>
-        <input type="text" name="companyName" id="companyName" th:value="*{companyName}" required>
+        <label for="description">Company name: </label>
+        <input type="text" name="description" id="description" th:value="*{description}" required>
     </div>
     <div>
         <label for="email">Email address: </label>

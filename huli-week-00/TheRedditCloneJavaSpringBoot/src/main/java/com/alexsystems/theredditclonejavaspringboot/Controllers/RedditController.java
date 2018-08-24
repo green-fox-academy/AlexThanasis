@@ -1,9 +1,7 @@
 package com.alexsystems.theredditclonejavaspringboot.Controllers;
 
 import com.alexsystems.theredditclonejavaspringboot.Models.Post;
-import com.alexsystems.theredditclonejavaspringboot.Models.User;
 import com.alexsystems.theredditclonejavaspringboot.Services.RedditService;
-import com.alexsystems.theredditclonejavaspringboot.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,7 +15,6 @@ public class RedditController {
 
     @Autowired
     RedditService redditService;
-    UserService userService;
 
     @GetMapping("")
     public String renderIndex(Model model){
@@ -55,14 +52,4 @@ public class RedditController {
         return "viewimage";
     }
 
-    @PostMapping
-    public String login(@ModelAttribute User user){
-        return "redirect:/";
-    }
-
-    @PostMapping
-    public String addNewUser(@ModelAttribute User user){
-        userService.save(user);
-        return "redirect:/";
-    }
 }

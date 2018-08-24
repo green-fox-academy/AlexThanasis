@@ -3,9 +3,6 @@ package com.alexsystems.theredditclonejavaspringboot.Services;
 import com.alexsystems.theredditclonejavaspringboot.Models.User;
 import com.alexsystems.theredditclonejavaspringboot.Repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
@@ -48,6 +45,11 @@ public class UserServiceImplem implements UserService {
     }
 
     @Override
+    public boolean isExistingName(String name) {
+        return findOneByName(name) != null;
+    }
+
+    @Override
     public boolean isValidPassword(String password, String confirm) {
         return password.length() >= 8 && password.equals(confirm);
     }
@@ -77,11 +79,6 @@ public class UserServiceImplem implements UserService {
             return "This email address is already exists!";
         }
         return null;
-    }
-
-    @Override
-    public boolean isExistingName(String name) {
-        return findOneByName(name) != null;
     }
 
     @Override
