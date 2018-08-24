@@ -62,7 +62,7 @@ public class RedditController {
 
     @PostMapping
     public String addNewUser(@ModelAttribute User user){
-        userService.addUser(user);
+        userService.save(user);
         return "redirect:/";
     }
 }
