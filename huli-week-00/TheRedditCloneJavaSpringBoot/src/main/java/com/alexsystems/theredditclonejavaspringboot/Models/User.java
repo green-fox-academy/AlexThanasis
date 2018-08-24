@@ -1,8 +1,13 @@
 package com.alexsystems.theredditclonejavaspringboot.Models;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.List;
 
+@Getter
+@Setter
 @Entity
 @Table(name="USER")
 public class User {
@@ -14,67 +19,20 @@ public class User {
     private String description;
     private String password;
     private String email;
+    private boolean activated;
+    private boolean admin;
    // @OneToMany(mappedBy = "USER")
    // private List<Post> posts;
-
-    public User(String name, String description, String password, String email) {
-        this.name = name;
-        this.description = description;
-        this.password = password;
-        this.email = email;
-    }
 
     public User() {
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public User(String name, String description, String password, String email, boolean activated, boolean admin) {
         this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
+        this.activated = activated;
+        this.admin = admin;
     }
-
-    /*
-    public List<Post> getPosts() {
-
-        return posts;
-    }
-
-    public void setPosts(List<Post> posts) {
-        this.posts = posts;
-    }
-    */
 }

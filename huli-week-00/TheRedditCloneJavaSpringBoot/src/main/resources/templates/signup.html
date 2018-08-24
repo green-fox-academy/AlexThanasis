@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Registration</title>
 </head>
 <body>
-$END$
+<h1>Registration</h1>
+<div>
+    <p th:text="${errorMessage}"></p>
+</div><br/>
+<form action="/registration" method="post" th:object="${user}">
+    <div>
+        <label for="firstName">First name: </label>
+        <input type="text" name="firstName" id="firstName" th:value="*{firstName}" required>
+    </div>
+    <div>
+        <label for="lastName">Last name: </label>
+        <input type="text" name="lastName" id="lastName" th:value="*{lastName}" required>
+    </div>
+    <div>
+        <label for="companyName">Company name: </label>
+        <input type="text" name="companyName" id="companyName" th:value="*{companyName}" required>
+    </div>
+    <div>
+        <label for="email">Email address: </label>
+        <input type="text" name="email" id="email" th:value="*{email}" required>
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" th:value="*{password}" required>
+    </div>
+    <div>
+        <label for="confirm">Confirm password: </label>
+        <input type="password" name="confirm" id="confirm">
+    </div>
+    <input type="submit" value="Register">
+</form>
 </body>
 </html>
