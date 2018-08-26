@@ -25,8 +25,4 @@ public class HelloWorldController {
         model.addAttribute("hello", hellos[(int)greeting.getId()]);
         return "sayhello";
     }
-
-
-
-
 }

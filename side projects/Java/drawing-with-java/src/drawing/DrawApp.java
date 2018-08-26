@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class DrawApp extends JPanel {
 
-    public void paintComponent(Graphics g){
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
         this.setBackground(Color.CYAN);
 
@@ -19,5 +19,4 @@ public class DrawApp extends JPanel {
         g.setColor(Color.RED);
         g.drawString("this is a text", 25, 120);
     }
-
 }

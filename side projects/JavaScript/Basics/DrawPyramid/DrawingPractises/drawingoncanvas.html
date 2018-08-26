@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+ </head>
+ <body>
+    
+    <canvas id='canvas' style='border: 1px solid; width: 800px; height: 600px;'>
+        Sorry some problem occured!
+    </canvas>
+
+    <script>
+        var canvas = document.getElementById('canvas');
+        canvas.width = canvas.scrollWidth;
+        canvas.height = canvas.scrollHeight;
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'green';
+        ctx.fillRect(50, 50, 100, 100);
+
+        ctx.fillStyle = 'red';
+        ctx.strokeStyle = 'red';
+        ctx.strokeRect(200, 50, 100, 100);
+
+        ctx.fillStyle='blue';
+        ctx.beginPath();
+        ctx.arc(400, 100, 50, 0, Math.PI*2);
+        ctx.fill();
+
+        ctx.strokeStyle='purple';
+        ctx.beginPath();
+        ctx.arc(550, 100, 50, 0, Math.PI*2);
+        ctx.stroke();
+
+        ctx.fillStyle='pink';
+        ctx.beginPath();
+        ctx.arc(700, 100, 50, 0, Math.PI/2);
+        ctx.lineTo(700, 100);
+        ctx.fill();
+
+    </script>
+
+ </body>
+ </html>
