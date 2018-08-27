@@ -13,19 +13,20 @@ import java.util.Date;
 @Table(name="foxes")
 public class Fox {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String name;
-    private String descriptipn;
+    private String description;
     private String type;
     private String color;
     private Date bornAt;
-    //private User user;
+    @ManyToOne
+    private User user;
 
-    public Fox(String name, String descriptipn, String type, String color, Date bornAt /*, User user*/) {
+    public Fox(String name, String description, String type, String color, Date bornAt /*, User user*/) {
         this.name = name;
-        this.descriptipn = descriptipn;
+        this.description = description;
         this.type = type;
         this.color = color;
         this.bornAt = bornAt;
