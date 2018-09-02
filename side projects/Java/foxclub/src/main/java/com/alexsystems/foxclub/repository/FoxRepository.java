@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface FoxRepository extends CrudRepository<Fox, Long> {
 
-    List<Fox>findAll();
+    List<Fox> findAll();
 }

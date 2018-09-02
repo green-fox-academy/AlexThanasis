@@ -1,12 +1,12 @@
 'use strict';
-export { }
+
 let lineCount: number = 4;
 
-let a:string=" ";
-let b:string="*";
+let a: string=" ";
+let b: string="*";
 
 for (let i: number = 0; i < lineCount; i++) {
-    for (let j:number = i; j < lineCount - 1; j++) {
+    for (let j: number = i; j < lineCount - 1; j++) {
         a+=' ';
     }
     console.log(a+b);

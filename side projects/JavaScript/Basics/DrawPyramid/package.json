@@ -1,0 +1,15 @@
+{
+  "name": "drawpyramid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DrawPyramid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-ts": "^2.1.2",
+    "ts-node": "^7.0.1"
+  }
+}

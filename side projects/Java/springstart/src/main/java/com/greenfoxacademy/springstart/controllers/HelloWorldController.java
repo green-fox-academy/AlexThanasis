@@ -18,11 +18,11 @@ public class HelloWorldController {
     AtomicLong atomicLong = new AtomicLong(1);
 
     @RequestMapping("/sayhello")
-    public String sayHello(@RequestParam(value = "name") String name, Model model){
+    public String sayHello(@RequestParam(value = "name") String name, Model model) {
         Greeting greeting = new Greeting(atomicLong.getAndIncrement(), name);
         model.addAttribute("name", name);
         model.addAttribute("count", greeting.getId());
-        model.addAttribute("hello", hellos[(int)greeting.getId()]);
+        model.addAttribute("hello", hellos[(int) greeting.getId()]);
         return "sayhello";
     }
 }

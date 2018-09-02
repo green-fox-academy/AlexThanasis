@@ -13,7 +13,7 @@ import java.util.Set;
 @Setter
 
 @Entity
-@Table(name="users")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,7 +24,7 @@ public class User {
 
     @OneToMany
     @JoinTable(name = "USER_FOX", joinColumns = @JoinColumn(name = "USER_ID"),
-    inverseJoinColumns = @JoinColumn(name = "FOX_ID"))
+            inverseJoinColumns = @JoinColumn(name = "FOX_ID"))
     private Collection<Fox> pets = new ArrayList<Fox>();
 
     public User() {

@@ -9,7 +9,9 @@ import java.util.List;
 public interface FoxService {
 
     List<Fox> FindAllFoxes();
+
     void addFox(Fox fox);
+
     Fox getFoxById(Long id);
 
 }
