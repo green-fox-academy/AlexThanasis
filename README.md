@@ -1,4 +1,6 @@
 # AlexThanasis
 Alex Thanasis
-Fulvipes Ocelot :ocean:
+
+:tiger: Fulvipes Ocelot & SZERA project :ocean:
+
 C#, .Net, Java, Spring Boot, JS, TS
