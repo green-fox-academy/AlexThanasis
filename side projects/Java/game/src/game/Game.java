@@ -13,6 +13,7 @@ public class Game implements Runnable {
         Height = height;
         Game.title = title;
         new Window(Width, Height, Game.title);
+        start();
     }
 
     public void run(){
@@ -42,15 +43,24 @@ public class Game implements Runnable {
                 updates = 0;
             }
         }
+        stop();
 
     };
 
     public void start(){
 
+        thread = new Thread(this);
+        thread.start();
+        running = true;
     };
 
     public void stop(){
-
+        try {
+            thread.join();
+            running = false;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     };
 
     public void tick(){
