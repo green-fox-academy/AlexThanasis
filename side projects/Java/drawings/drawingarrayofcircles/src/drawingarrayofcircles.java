@@ -35,9 +35,9 @@ public class drawingarrayofcircles extends JFrame{
 //MouseListenerend
     }
     public static void main(String[] args) {
-        drawingarrayofcircles marco=new drawingarrayofcircles ();
-        marco.setSize(1000,700);
-        marco.setVisible(true);
-        marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        drawingarrayofcircles button=new drawingarrayofcircles ();
+        button.setSize(1000,700);
+        button.setVisible(true);
+        button.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

@@ -1,6 +1,7 @@
 package com.alexsystems.theredditclonejavaspringboot.Controllers;
 
 import com.alexsystems.theredditclonejavaspringboot.Models.User;
+import com.alexsystems.theredditclonejavaspringboot.Repositories.UserRepository;
 import com.alexsystems.theredditclonejavaspringboot.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,8 +17,14 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class UserController {
 
+    private UserService userService;
+    private UserRepository userRepository;
+
     @Autowired
-    UserService userService;
+    public UserController(UserService userService, UserRepository userRepository) {
+        this.userService = userService;
+        this.userRepository = userRepository;
+    }
 
     @GetMapping("/registration")
     public String renderRegistrationPage(@ModelAttribute User user, Model model) {
@@ -26,8 +33,9 @@ public class UserController {
     }
 
     @PostMapping("/registration")
-    public String signUp(@ModelAttribute User user, Model model,
-                         @RequestParam(name = "confirm") String confirm, HttpServletRequest request) {
+    public String signUp(@ModelAttribute User user,
+                         @RequestParam(name = "confirm") String confirm,
+                         HttpServletRequest request, Model model) {
         String errorMessage = userService.errorHandler(user, confirm);
         model.addAttribute("error", errorMessage);
         if (errorMessage != null) {
@@ -35,7 +43,7 @@ public class UserController {
         }
         userService.register(user);
         HttpSession session = request.getSession();
-        session.setAttribute("session", user.getEmail());
+        session.setAttribute("session", userService.findOneByEmail(user.getEmail()).getEmail());
         if (userService.isAdminEmail(user)) {
             return "redirect:/admin/profile";
         }
@@ -59,7 +67,7 @@ public class UserController {
             return "redirect:/login";
         }
         model.addAttribute("sessionEmail", sessionObject);
-        return "userProfile";
+        return "userprofile";
     }
 
     @GetMapping("/login")

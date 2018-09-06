@@ -9,8 +9,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImplem implements UserService {
 
+    private UserRepository userRepository;
+
     @Autowired
-    UserRepository userRepository;
+    public UserServiceImplem(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     @Override
     public User save(User user) {

@@ -2,14 +2,1168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e74997b-476b-4469-b4bf-e32acc5e00c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/drawingarrayofcircles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/UserServiceImplem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/UserServiceImplem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/userprofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chessboard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chessboard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/huli-week-00.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/out/production/huli-week-00/Main$Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/out/production/huli-week-00/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SandBox/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/src/main/java/com/example/firstspringapp/FirstSpringAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/src/main/java/com/example/firstspringapp/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/SpringCatchUp/src/test/java/com/example/firstspringapp/FirstSpringAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Controllers/RedditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Models/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Repositories/RedditRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/RedditService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/RedditServiceImplem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/Services/UserServiceImplem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/java/com/alexsystems/theredditclonejavaspringboot/TheredditclonejavaspringbootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/db/migration/V1__TABLE_CREATION.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/db/migration/V2__INSERT_DATA.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/static/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/adminprofile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/login2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/signup2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/submit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/userprofile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/main/resources/templates/viewimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/TheRedditCloneJavaSpringBoot/src/test/java/com/alexsystems/theredditclonejavaspringboot/TheredditclonejavaspringbootApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/DatabasepracticeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/controllers/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/controllers/MovieRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/models/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/repositories/MovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/services/MovieServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/java/com/data/databasepractice/services/MovieServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/databasepractice/src/test/java/com/data/databasepractice/DatabasepracticeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/endpoint/FirstFloorEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/model/ApplicationUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/security/JWTAuthorizationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/security/SecurityConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/java/com/example/demo/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/JwtSecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/config/JwtSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/model/JwtAuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/model/JwtUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/model/JwtUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/security/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/security/JwtAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/security/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/security/JwtSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/java/com/securitydemo/jwtsecurity/security/JwtValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../huli-week-00/jwt-security/src/test/java/com/securitydemo/jwtsecurity/JwtSecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drawingarrayofcircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawingarrayofcircles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/css/img/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/css/img/tile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/css/img/topography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/first-website-design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-02/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-02/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-02/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-02/file4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-02/file5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-03/first-task/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-03/first-task/images/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-03/first-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/01-09.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/10 - DefineBasicInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/11 - VariableMutation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/12 - Cuboid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/14 - HelloUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/15 - MileToKmConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/16 - AnimalsAndLegs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/17 - AverageOfInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/18 - OddEven.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/19 - OneTwoALot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/21 - PartyIndicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/23 - IWontCheatOnTheExams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/24 - PrintEven.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/25 - MultiplicationTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/26 - CountFromTo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/27 - FizzBuzz.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/28 - DrawTriangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/29 - DrawPyramid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/30 - DrawDiamond.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/31 - DrawSquare.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/32 - DrawDiagonal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/33 - GuessTheNumber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-01/day-04/35 - CheckTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Anagram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/AppendA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/AppendAFunc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/BubbleSort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/ChangeElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Colors.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/CompareLength.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/DiagonalMatrix.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/DoubleItems.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Doubling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Factorio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Greet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/IncrementElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Palindrome-Builder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/PrintAll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Reverse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Sum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/SumAll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/SumElements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/SwapElements.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Third.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-01/Unique.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/AppendLetter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/CandyShop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/ElementFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/HeWillNever.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/IsInList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/Matchmaking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/QuoteSwap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/Reverse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/SimpleReplace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/SolarSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/StudentCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/TakesLonger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/ToDoPrint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-02/UrlFixer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/.vs/day-03/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/CopyFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/CountLines.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/DivideByZero.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/Log.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/MaterialReviewInTheClass_02_03.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/NewUnique.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-03/PrintEachLine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/CenterBoxFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/CenteredSquare.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/Checkboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/ColoredBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/Diagonals.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/FourRectangles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/FunctionToCenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/GoToCenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/HorizontalLines.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/LineInTheMiddle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-04/StarryNight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-05/EnvelopeStar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-05/LinePlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-02/day-05/Triangles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/.vs/Animal/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/.vs/Animal/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/.vs/Animal/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/Animal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/Animal.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/bin/Debug/Animal.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/bin/Debug/Animal.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/bin/Debug/Animal.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/Animal.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/Animal.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/Animal.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/Animal.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Animal/Animal/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/.vs/Counter/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/.vs/Counter/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/.vs/Counter/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/Counter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/Counter.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/bin/Debug/Counter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/bin/Debug/Counter.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/bin/Debug/Counter.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/Counter.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/Counter.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/Counter.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/Counter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/Counter.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Counter/Counter/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/.vs/Domino/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/.vs/Domino/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/.vs/Domino/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/.vs/Domino/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/.vs/Domino/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/Domino.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/Domino.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/bin/Debug/Domino.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/bin/Debug/Domino.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/bin/Debug/Domino.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/Domino.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/Domino.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/Domino.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/Domino.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/Domino.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Domino/Domino/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/.vs/Sharpie/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/.vs/Sharpie/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/.vs/Sharpie/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/Sharpie.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/Sharpie.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/bin/Debug/Sharpie.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/bin/Debug/Sharpie.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/bin/Debug/Sharpie.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/Sharpie.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/Sharpie.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/Sharpie.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/Sharpie.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/Sharpie.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Sharpie/Sharpie/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/.vs/Teacher Student/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/.vs/Teacher Student/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/.vs/Teacher Student/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/.vs/Teacher Student/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/.vs/Teacher Student/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/Teacher Student.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/Teacher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/bin/Debug/Teacher Student.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/bin/Debug/Teacher Student.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/bin/Debug/Teacher Student.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/Teacher Student.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/Teacher Student.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/Teacher Student.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/Teacher Student.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/Teacher Student.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-03/Teacher Student/Teacher Student/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Bunnies.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Bunnies2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Counter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/DrawTest/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/DrawTest.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/FoxDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/MainWindow.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/bin/Debug/DrawTest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/bin/Debug/DrawTest.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/bin/Debug/DrawTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/App.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.g.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest_MarkupCompile.i.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/DrawTest_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Release/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Release/DrawTest.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Release/DrawTest_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Release/DrawTest_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/DrawTest/DrawTest/obj/Release/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Numberadder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Power.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Refactorio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/String.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/String2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/String3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-04/Sumdigit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/.vs/DrawingRecursivelyHexagons/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/.vs/DrawingRecursivelyHexagons/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/.vs/DrawingRecursivelyHexagons/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/.vs/DrawingRecursivelyHexagons/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/.vs/DrawingRecursivelyHexagons/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/FoxDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/MainWindow.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/bin/Debug/DrawingRecursivelyHexagons.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/bin/Debug/DrawingRecursivelyHexagons.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/bin/Debug/DrawingRecursivelyHexagons.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/App.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.g.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons_MarkupCompile.i.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons_MarkupCompile.i.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/DrawingRecursivelyHexagons_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingRecursivelyHexagons/DrawingRecursivelyHexagons/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/.vs/DrawingSquareGrid/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/.vs/DrawingSquareGrid/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/.vs/DrawingSquareGrid/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/.vs/DrawingSquareGrid/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/.vs/DrawingSquareGrid/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/DrawingSquareGrid.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/FoxDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/MainWindow.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/bin/Debug/DrawingSquareGrid.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/bin/Debug/DrawingSquareGrid.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/bin/Debug/DrawingSquareGrid.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/App.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.g.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid_MarkupCompile.i.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid_MarkupCompile.i.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/DrawingSquareGrid_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/DrawingSquareGrid/DrawingSquareGrid/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/.vs/SierpinskiTriangleDrawingRecursively/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/.vs/SierpinskiTriangleDrawingRecursively/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/.vs/SierpinskiTriangleDrawingRecursively/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/.vs/SierpinskiTriangleDrawingRecursively/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/.vs/SierpinskiTriangleDrawingRecursively/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/FoxDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/MainWindow.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/bin/Debug/SierpinskiTriangleDrawingRecursively.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/bin/Debug/SierpinskiTriangleDrawingRecursively.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/bin/Debug/SierpinskiTriangleDrawingRecursively.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/App.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.g.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively_MarkupCompile.i.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/SierpinskiTriangleDrawingRecursively_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SierpinskiTriangleDrawingRecursively/SierpinskiTriangleDrawingRecursively/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-03/day-05/SquareGrid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/.vs/garden-app/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/.vs/garden-app/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/.vs/garden-app/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/.vs/garden-app/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/Flower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/Garden.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/Plant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/Tree.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/bin/Debug/netcoreapp2.0/garden-app.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/bin/Debug/netcoreapp2.0/garden-app.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/bin/Debug/netcoreapp2.0/garden-app.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/bin/Debug/netcoreapp2.0/garden-app.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/bin/Debug/netcoreapp2.0/garden-app.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/garden-app.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/Debug/netcoreapp2.0/garden-app.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/garden-app.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/garden-app.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/garden-app.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/garden-app/garden-app/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Cloneable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Cohort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Mentor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Sponsor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/green-fox.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/green-fox.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/green-fox.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/green-fox.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-02/green-fox/green-fox/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/.vs/GardenApp/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/Flower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/Garden.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/GardenApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/Plant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/Tree.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/bin/Debug/netcoreapp2.0/GardenApp.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/bin/Debug/netcoreapp2.0/GardenApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/bin/Debug/netcoreapp2.0/GardenApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/bin/Debug/netcoreapp2.0/GardenApp.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/bin/Debug/netcoreapp2.0/GardenApp.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/Debug/netcoreapp2.0/GardenApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/GardenApp.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/GardenApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/GardenApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/GardenApp/GardenApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/.vs/Zoo/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Animal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Bird.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Mammal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Reptile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/Zoo.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/bin/Debug/netcoreapp2.0/Zoo.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/bin/Debug/netcoreapp2.0/Zoo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/bin/Debug/netcoreapp2.0/Zoo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/bin/Debug/netcoreapp2.0/Zoo.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/bin/Debug/netcoreapp2.0/Zoo.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Debug/netcoreapp2.0/Zoo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Zoo.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Zoo.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/Zoo.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/Zoo/Zoo/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/.vs/green-fox/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Cloneable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Cohort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Mentor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Sponsor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/bin/Debug/netcoreapp2.0/green-fox.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/green-fox.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/Debug/netcoreapp2.0/green-fox.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/green-fox.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/green-fox.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/green-fox.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-04/day-03/green-fox/green-fox/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-01/Fox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Account Login/Account Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Account Login/CSS/styling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Fancy Table Exercise/CSS/styling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Fancy Table Exercise/Fancy Table Exercise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Sign Up Form/CSS/styling.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-03/Sign Up Form/SignUp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/.vs/TODO/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/Database.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/Program.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/TODO.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/TODO.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/TODO.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/TODO.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/TODO.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/TODO.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/database.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/x64/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/bin/Debug/netcoreapp2.0/x86/SQLite.Interop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/files/database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/files/printinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/Debug/netcoreapp2.0/TODO.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/TODO.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/TODO.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/TODO.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-06/day-04/TODO/TODO/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Controllers/RestController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Controllers/WebController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Models/Greeting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-01/Views/Web/Greeting.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Controllers/BankAccountController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Models/AccountsOfTheBank.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Models/BankAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/BankAccount/ShowAllAccounts.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/BankAccount/Simba.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/css/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/images/banner1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/images/banner2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/images/banner3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/images/banner4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/js/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/BankOfSimba/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/Greet/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Greet.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Models/Greet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Models/IGreet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bin/Debug/netcoreapp2.0/Greet.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bin/Debug/netcoreapp2.0/Greet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bin/Debug/netcoreapp2.0/Greet.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bin/Debug/netcoreapp2.0/Greet.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bin/Debug/netcoreapp2.0/Greet.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Debug/netcoreapp2.0/Greet.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Greet.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Greet.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/Greet.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/css/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/images/banner1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/images/banner2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/images/banner3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/images/banner4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/js/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-07/day-02/Greet/Greet/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-01/Poker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-01/TestDoJo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/ToDOEF/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Controllers/TodoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Migrations/20180703141400_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Migrations/20180703141400_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Migrations/20180705143539_database.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Migrations/20180705143539_database.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Migrations/ToDoDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Models/Assignee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Models/ToDo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Repositories/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Repositories/ToDoDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Repositories/ToDoRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Services/IToDo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Services/ToDoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/ToDOEF.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/ToDOEF.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/Add.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/AddTaskToAssignee.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/Assignee.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/ToDo/List.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bin/Debug/netcoreapp2.0/ToDOEF.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bin/Debug/netcoreapp2.0/ToDOEF.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bin/Debug/netcoreapp2.0/ToDOEF.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bin/Debug/netcoreapp2.0/ToDOEF.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bin/Debug/netcoreapp2.0/ToDOEF.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/Debug/netcoreapp2.0/ToDOEF.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/ToDOEF.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/ToDOEF.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/ToDOEF.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/css/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/css/todo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/images/banner1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/images/banner2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/images/banner3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/images/banner4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/js/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/css/spacelab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-03/ToDOEF/ToDOEF/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/TheRedditEF/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Controllers/RedditController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Migrations/20180706083600_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Migrations/20180706083600_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Migrations/20180708195836_add-migration database.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Migrations/20180708195836_add-migration database.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Migrations/PostDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Models/Post.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Models/PostUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Repositories/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Repositories/PostDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Repositories/PostRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Repositories/UserRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Services/IReddit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Services/RedditService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/TheRedditEF.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/TheRedditEF.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/ViewModels/PostUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Edit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Login.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Service.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Signup.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/Submit.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Reddit/ViewImage.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bin/Debug/netcoreapp2.0/TheRedditEF.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bin/Debug/netcoreapp2.0/TheRedditEF.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bin/Debug/netcoreapp2.0/TheRedditEF.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bin/Debug/netcoreapp2.0/TheRedditEF.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bin/Debug/netcoreapp2.0/TheRedditEF.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/bundleconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/Debug/netcoreapp2.0/TheRedditEF.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/TheRedditEF.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/TheRedditEF.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/TheRedditEF.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/css/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/images/banner1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/images/banner2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/images/banner3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/images/banner4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/js/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-08/day-05/TheRedditEF/TheRedditEF/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/RestApiWorkshop/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/.vs/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Migrations/20180709151723_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Migrations/20180709151723_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Migrations/20180709152925_Inial2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Migrations/20180709152925_Inial2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Migrations/LogDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Model/Log.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Repository/LogDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/RestApiWorkshop.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/RestApiWorkshop.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/bin/Debug/netcoreapp2.0/RestApiWorkshop.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/bin/Debug/netcoreapp2.0/RestApiWorkshop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/bin/Debug/netcoreapp2.0/RestApiWorkshop.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/bin/Debug/netcoreapp2.0/RestApiWorkshop.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/bin/Debug/netcoreapp2.0/RestApiWorkshop.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/Debug/netcoreapp2.0/RestApiWorkshop.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/RestApiWorkshop.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/RestApiWorkshop.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/RestApiWorkshop.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/wwwroot/frontend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshop/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/RestApiWorkshopTest.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshop.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshopTest.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshopTest.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshopTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshopTest.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/RestApiWorkshopTest.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/Debug/netcoreapp2.0/RestApiWorkshopTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/RestApiWorkshopTest.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/RestApiWorkshopTest.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/RestApiWorkshopTest.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-01/RestApiWorkshop/RestApiWorkshopTest/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/.vs/TheRedditCloneRESTApi/DesignTimeBuild/.dtbcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/.vs/TheRedditCloneRESTApi/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/.vs/TheRedditCloneRESTApi/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/.vs/TheRedditCloneRESTApi/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Controllers/RedditController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Controllers/ValuesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Migrations/20180711153405_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Migrations/20180711153405_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Migrations/RedditRestDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Models/Post.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Models/RedditRestDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Repositories/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Repositories/PostRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Services/IService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Services/RedditService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/TheRedditCloneRESTApi.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/TheRedditCloneRESTApi.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/bin/Debug/netcoreapp2.0/TheRedditCloneRESTApi.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/bin/Debug/netcoreapp2.0/TheRedditCloneRESTApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/bin/Debug/netcoreapp2.0/TheRedditCloneRESTApi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/bin/Debug/netcoreapp2.0/TheRedditCloneRESTApi.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/bin/Debug/netcoreapp2.0/TheRedditCloneRESTApi.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/Debug/netcoreapp2.0/TheRedditCloneRESTApi.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/TheRedditCloneRESTApi.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/TheRedditCloneRESTApi.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/TheRedditCloneRESTApi.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../week-09/day-03/TheRedditCloneRESTApi/TheRedditCloneRESTApi/obj/project.assets.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,9 +1176,11 @@
     <session id="-676556359">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,29 +1195,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="132" />
+          <entry key="java" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="132" />
+          <entry key="JAVA" value="139" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/drawingarrayofcircles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#550#770#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#811#1196#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +1266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,15 +1278,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536161691247" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../szera-project-turquoise/huli-szera-backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -175,27 +1328,24 @@
       <option name="presentableId" value="Default" />
       <updated>1536160951610</updated>
       <workItem from="1536160958755" duration="737000" />
+      <workItem from="1536219750222" duration="3062000" />
+      <workItem from="1536234610750" duration="407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="737000" />
+    <option name="totallyTimeSpent" value="4206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
@@ -203,15 +1353,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,14 +1378,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/drawingarrayofcircles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#550#770#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#811#1196#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
           </folding>
         </state>
       </provider>
