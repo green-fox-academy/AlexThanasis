@@ -2,21 +2,26 @@ package game;
 
 import window.Window;
 
+import java.awt.image.BufferStrategy;
+
 public class Game implements Runnable {
     public static int Width, Height;
     public static String title;
     private boolean running = false;
+    private Window window;
     private Thread thread;
+    private BufferStrategy buffer;
 
     public Game(int width, int height, String title) {
         Width = width;
         Height = height;
         Game.title = title;
-        new Window(Width, Height, Game.title);
+        window = new Window(Width, Height, Game.title);
         start();
     }
 
     public void run(){
+        window.getCanvas().requestFocus();
         long lastTime = System.nanoTime();
         double amountOfTicks = 60.0;
         double ns = 1000000000 / amountOfTicks;
@@ -45,14 +50,14 @@ public class Game implements Runnable {
         }
         stop();
 
-    };
+    }
 
     public void start(){
 
         thread = new Thread(this);
         thread.start();
         running = true;
-    };
+    }
 
     public void stop(){
         try {
@@ -61,13 +66,19 @@ public class Game implements Runnable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    };
+    }
 
     public void tick(){
 
     }
 
     public void render(){
+
+        buffer = window.getCanvas().getBufferStrategy();
+        if (buffer == null){
+            window.getCanvas().createBufferStrategy(3);
+            return;
+        }
 
     }
 }

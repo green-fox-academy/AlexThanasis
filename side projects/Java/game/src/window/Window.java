@@ -25,5 +25,11 @@ public class Window {
         frame.setVisible(true);
     }
 
+    public JFrame getFrame() {
+        return frame;
+    }
 
+    public Canvas getCanvas() {
+        return canvas;
+    }
 }
