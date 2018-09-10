@@ -2,6 +2,7 @@ package game;
 
 import window.Window;
 
+import java.awt.*;
 import java.awt.image.BufferStrategy;
 
 public class Game implements Runnable {
@@ -11,6 +12,7 @@ public class Game implements Runnable {
     private Window window;
     private Thread thread;
     private BufferStrategy buffer;
+    private Graphics graphics;
 
     public Game(int width, int height, String title) {
         Width = width;
