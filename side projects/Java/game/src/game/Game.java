@@ -84,6 +84,7 @@ public class Game implements Runnable {
         g = buffer.getDrawGraphics();
         g.clearRect(0, 0, Width, Height);
         //DRAW
+        /*
         g.setColor(new Color(255, 255, 100));
         g.fillRect(10, 10, 32, 32);
         g.setColor(Color.cyan);
@@ -92,7 +93,10 @@ public class Game implements Runnable {
         g.setFont(new Font("Arial", Font.BOLD, 25));
         g.draw3DRect(100, 100, 64, 64, true);
         g.drawString("staff to write", 200, 200);
+        */
         //END
+        g.setColor(Color.white);
+        g.fillRect(0, 0, Width, Height);
         buffer.show();
         g.dispose();
     }
