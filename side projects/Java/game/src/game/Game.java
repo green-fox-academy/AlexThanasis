@@ -12,7 +12,7 @@ public class Game implements Runnable {
     private Window window;
     private Thread thread;
     private BufferStrategy buffer;
-    private Graphics graphics;
+    private Graphics g;
 
     public Game(int width, int height, String title) {
         Width = width;
@@ -81,15 +81,19 @@ public class Game implements Runnable {
             window.getCanvas().createBufferStrategy(3);
             return;
         }
-        graphics = buffer.getDrawGraphics();
-        graphics.clearRect(0, 0, Width, Height);
+        g = buffer.getDrawGraphics();
+        g.clearRect(0, 0, Width, Height);
         //DRAW
-        graphics.setColor(new Color(255, 255, 100));
-        graphics.fillRect(10, 10, 32, 32);
-        graphics.setColor(Color.cyan);
-        graphics.drawRect(60,60, 32,32);
+        g.setColor(new Color(255, 255, 100));
+        g.fillRect(10, 10, 32, 32);
+        g.setColor(Color.cyan);
+        g.drawRect(60,60, 32,32);
+
+        g.setFont(new Font("Arial", Font.BOLD, 25));
+        g.draw3DRect(100, 100, 64, 64, true);
+        g.drawString("staff to write", 200, 200);
         //END
         buffer.show();
-        graphics.dispose();
+        g.dispose();
     }
 }
