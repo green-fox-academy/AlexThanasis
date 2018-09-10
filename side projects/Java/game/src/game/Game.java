@@ -15,15 +15,15 @@ public class Game implements Runnable {
     private Thread thread;
     private BufferStrategy buffer;
     private Graphics g;
-    private Page gameP;
+    private Page gamePage;
 
     public Game(int width, int height, String title) {
         Width = width;
         Height = height;
         Game.title = title;
         window = new Window(Width, Height, Game.title);
-        gameP = new gamePage();
-        Page.setCurrentPage(gameP);
+        gamePage = new gamePage();
+        Page.setCurrentPage(gamePage);
         start();
     }
 
@@ -77,7 +77,7 @@ public class Game implements Runnable {
 
     public void tick(){
 
-        gameP.tick();
+        gamePage.tick();
 
     }
 
@@ -90,7 +90,7 @@ public class Game implements Runnable {
         }
         g = buffer.getDrawGraphics();
         g.clearRect(0, 0, Width, Height);
-        gameP.render(g);
+        gamePage.render(g);
         //DRAW
         /*
         g.setColor(new Color(255, 255, 100));
