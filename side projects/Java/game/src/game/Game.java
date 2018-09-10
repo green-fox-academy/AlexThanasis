@@ -23,6 +23,7 @@ public class Game implements Runnable {
         Game.title = title;
         window = new Window(Width, Height, Game.title);
         gameP = new gamePage();
+        Page.setCurrentPage(gameP);
         start();
     }
 
@@ -76,6 +77,8 @@ public class Game implements Runnable {
 
     public void tick(){
 
+        gameP.tick();
+
     }
 
     public void render(){
@@ -87,6 +90,7 @@ public class Game implements Runnable {
         }
         g = buffer.getDrawGraphics();
         g.clearRect(0, 0, Width, Height);
+        gameP.render(g);
         //DRAW
         /*
         g.setColor(new Color(255, 255, 100));
