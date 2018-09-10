@@ -1,5 +1,7 @@
 package game;
 
+import page.Page;
+import page.gamePage;
 import window.Window;
 
 import java.awt.*;
@@ -13,12 +15,14 @@ public class Game implements Runnable {
     private Thread thread;
     private BufferStrategy buffer;
     private Graphics g;
+    private Page gameP;
 
     public Game(int width, int height, String title) {
         Width = width;
         Height = height;
         Game.title = title;
         window = new Window(Width, Height, Game.title);
+        gameP = new gamePage();
         start();
     }
 
@@ -95,8 +99,7 @@ public class Game implements Runnable {
         g.drawString("staff to write", 200, 200);
         */
         //END
-        g.setColor(Color.white);
-        g.fillRect(0, 0, Width, Height);
+
         buffer.show();
         g.dispose();
     }

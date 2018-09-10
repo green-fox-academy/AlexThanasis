@@ -4,8 +4,14 @@ import java.awt.*;
 
 public abstract class Page {
 
-    public static Page currentPage = null;
+    private static Page currentPage = null;
 
+    public static Page getCurrentPage() {
+        return currentPage;
+    }
+    public static void setCurrentPage(Page currentPage) {
+        Page.currentPage = currentPage;
+    }
     public abstract void render(Graphics g);
     public abstract void tick();
 }
