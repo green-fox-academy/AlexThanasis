@@ -81,6 +81,15 @@ public class Game implements Runnable {
             window.getCanvas().createBufferStrategy(3);
             return;
         }
-
+        graphics = buffer.getDrawGraphics();
+        graphics.clearRect(0, 0, Width, Height);
+        //DRAW
+        graphics.setColor(new Color(255, 255, 100));
+        graphics.fillRect(10, 10, 32, 32);
+        graphics.setColor(Color.cyan);
+        graphics.drawRect(60,60, 32,32);
+        //END
+        buffer.show();
+        graphics.dispose();
     }
 }
