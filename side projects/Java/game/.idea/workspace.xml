@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4aaa854-dada-4925-b788-086d1f477c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springstart/src/main/resources/swagger.properties.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springstart/src/main/java/com/greenfoxacademy/springstart/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springstart/src/main/java/com/greenfoxacademy/springstart/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springstart/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../springstart/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springstart/src/main/java/com/greenfoxacademy/springstart/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springstart/src/main/resources/swagger.properties.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -309,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536677397991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536678720820" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springstart" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -356,12 +357,12 @@
       <workItem from="1536258024559" duration="2521000" />
       <workItem from="1536308904427" duration="2722000" />
       <workItem from="1536605662038" duration="3701000" />
-      <workItem from="1536669584319" duration="5581000" />
+      <workItem from="1536669584319" duration="6280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15927000" />
+    <option name="totallyTimeSpent" value="16626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
