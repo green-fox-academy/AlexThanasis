@@ -15,9 +15,9 @@ public class Player extends Object {
 
     @Override
     public void render(Graphics g) {
+
         g.setColor(Color.BLACK);
         g.fillRect((int)x, (int)y, width, height);
-        g.setColor(Color.GREEN);
-        g.drawRect((int)x + 50, (int)y + 50, width, height);
+
     }
 }
