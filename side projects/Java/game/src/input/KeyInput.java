@@ -3,6 +3,7 @@ package input;
 import game.Handler;
 import object.ID;
 import object.Object;
+import object.Player;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
@@ -26,7 +27,8 @@ public class KeyInput extends KeyAdapter {
         for (int i = 0; i < handler.objects.size(); i++) {
             Object temp = handler.objects.get(i);
             if (temp.getId() == ID.Player) {
-                
+                Player player = (Player)temp;
+                if (key == KeyEvent.VK_W) {player.setY(player.getY() - 10); keyDown[0] = true;}
             }
         }
     }
