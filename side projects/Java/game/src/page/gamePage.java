@@ -17,7 +17,7 @@ public class gamePage extends Page {
     public gamePage(Game game) {
 
         handler = new Handler();
-        player = new Player(100, 100, 32, 32, ID.Player);
+        player = new Player(100, 100, 32, 32, ID.Player, handler);
         input = new KeyInput(handler);
         handler.addObject(player);
         game.getWindow().getCanvas().addKeyListener(input);
