@@ -29,7 +29,7 @@ public class KeyInput extends KeyAdapter {
                 Player player = (Player)temp;
                 if (key == KeyEvent.VK_W) {player.setY(player.getY() - 10);}
                 if (key == KeyEvent.VK_A) {player.setVelX(-3); keyDown[0] = true;}
-                if (key == KeyEvent.VK_D) {player.setVelY(3); keyDown[1] = true;}
+                if (key == KeyEvent.VK_D) {player.setVelX(3); keyDown[1] = true;}
             }
         }
     }
@@ -44,9 +44,7 @@ public class KeyInput extends KeyAdapter {
                 if (key == KeyEvent.VK_A) {keyDown[0] = false;}
                 if (key == KeyEvent.VK_D) {keyDown[1] = false;}
 
-                if (!keyDown[0] && !keyDown[1]){
-                    player.setVelX(0);
-                }
+                if (!keyDown[0] && ! keyDown[1]){player.setVelX(0);}
             }
         }
     }
