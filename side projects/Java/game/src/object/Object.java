@@ -8,8 +8,25 @@ public abstract class Object {
     protected float x, y;
     protected int width, height;
     protected ID id;
+    protected float velX, velY;
     //protected BufferedImage texture;
 
+
+    public float getVelX() {
+        return velX;
+    }
+
+    public void setVelX(float velX) {
+        this.velX = velX;
+    }
+
+    public float getVelY() {
+        return velY;
+    }
+
+    public void setVelY(float velY) {
+        this.velY = velY;
+    }
 
     public Object(float x, float y, int width, int height, ID id) {
         this.x = x;

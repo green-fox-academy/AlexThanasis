@@ -11,6 +11,9 @@ public class Player extends Object {
     @Override
     public void tick() {
 
+        x += velX;
+        y += velY;
+
     }
 
     @Override
