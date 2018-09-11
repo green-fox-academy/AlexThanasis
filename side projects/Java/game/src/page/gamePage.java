@@ -2,6 +2,7 @@ package page;
 
 import game.Game;
 import game.Handler;
+import input.KeyInput;
 import object.ID;
 import object.Player;
 
@@ -11,13 +12,15 @@ public class gamePage extends Page {
 
     public Player player;
     public Handler handler;
+    public KeyInput input;
 
-    public gamePage() {
+    public gamePage(Game game) {
 
         handler = new Handler();
-        player = new Player(10, 10, 32, 32, ID.Player);
+        player = new Player(100, 100, 32, 32, ID.Player);
+        input = new KeyInput(handler);
         handler.addObject(player);
-
+        game.getWindow().getCanvas().addKeyListener(input);
     }
 
     public void render(Graphics g) {

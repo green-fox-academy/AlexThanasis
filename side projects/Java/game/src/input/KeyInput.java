@@ -43,6 +43,10 @@ public class KeyInput extends KeyAdapter {
                 Player player = (Player)temp;
                 if (key == KeyEvent.VK_A) {keyDown[0] = false;}
                 if (key == KeyEvent.VK_D) {keyDown[1] = false;}
+
+                if (!keyDown[0] && !keyDown[1]){
+                    player.setVelX(0);
+                }
             }
         }
     }

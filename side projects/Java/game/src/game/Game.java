@@ -23,7 +23,7 @@ public class Game implements Runnable {
         Height = height;
         Game.title = title;
         window = new Window(Width, Height, Game.title);
-        gamePage = new gamePage();
+        gamePage = new gamePage(this);
         Page.setCurrentPage(gamePage);
         start();
     }
@@ -93,7 +93,7 @@ public class Game implements Runnable {
         g.clearRect(0, 0, Width, Height);
         gamePage.render(g);
         //DRAW
-        /*
+
         g.setColor(new Color(255, 255, 100));
         g.fillRect(10, 10, 32, 32);
         g.setColor(Color.cyan);
@@ -102,10 +102,14 @@ public class Game implements Runnable {
         g.setFont(new Font("Arial", Font.BOLD, 25));
         g.draw3DRect(100, 100, 64, 64, true);
         g.drawString("staff to write", 200, 200);
-        */
+
         //END
 
         buffer.show();
         g.dispose();
+    }
+
+    public Window getWindow() {
+        return window;
     }
 }
