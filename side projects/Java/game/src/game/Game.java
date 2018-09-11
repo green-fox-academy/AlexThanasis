@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.image.BufferStrategy;
 
 public class Game implements Runnable {
+
     public static int Width, Height;
     public static String title;
     private boolean running = false;
