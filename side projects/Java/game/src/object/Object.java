@@ -12,6 +12,14 @@ public abstract class Object {
     //protected BufferedImage texture;
 
 
+    public Object(float x, float y, int width, int height, ID id) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.id = id;
+    }
+
     public float getVelX() {
         return velX;
     }
@@ -26,14 +34,6 @@ public abstract class Object {
 
     public void setVelY(float velY) {
         this.velY = velY;
-    }
-
-    public Object(float x, float y, int width, int height, ID id) {
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.height = height;
-        this.id = id;
     }
 
     public float getX() {
@@ -78,4 +78,5 @@ public abstract class Object {
 
     public abstract void tick();
     public abstract void render(Graphics g);
+    public abstract Rectangle getBounds();
 }

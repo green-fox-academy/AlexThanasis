@@ -93,7 +93,7 @@ public class Game implements Runnable {
         g.clearRect(0, 0, Width, Height);
         gamePage.render(g);
         //DRAW
-
+/*
         g.setColor(new Color(255, 255, 100));
         g.fillRect(10, 10, 32, 32);
         g.setColor(Color.cyan);
@@ -104,7 +104,7 @@ public class Game implements Runnable {
         g.drawString("staff to write", 200, 200);
 
         //END
-
+*/
         buffer.show();
         g.dispose();
     }

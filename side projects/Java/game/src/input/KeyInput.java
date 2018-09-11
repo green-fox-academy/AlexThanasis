@@ -27,7 +27,10 @@ public class KeyInput extends KeyAdapter {
             Object temp = handler.objects.get(i);
             if (temp.getId() == ID.Player) {
                 Player player = (Player)temp;
-                if (key == KeyEvent.VK_W) {player.setY(player.getY() - 10);}
+                if (key == KeyEvent.VK_W && player.isJumping() == false) {
+                    player.setVelY(-10);
+                    player.setJumping(true);
+                }
                 if (key == KeyEvent.VK_A) {player.setVelX(-3); keyDown[0] = true;}
                 if (key == KeyEvent.VK_D) {player.setVelX(3); keyDown[1] = true;}
             }

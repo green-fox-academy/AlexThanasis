@@ -12,7 +12,7 @@ public class Window {
         frame = new JFrame(title);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocationRelativeTo(null);
+        frame.setLocation(500, 200);
         frame.setSize(width, height);
 
         canvas = new Canvas();

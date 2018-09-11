@@ -3,6 +3,7 @@ package page;
 import game.Game;
 import game.Handler;
 import input.KeyInput;
+import object.Block;
 import object.ID;
 import object.Player;
 
@@ -21,6 +22,12 @@ public class gamePage extends Page {
         input = new KeyInput(handler);
         handler.addObject(player);
         game.getWindow().getCanvas().addKeyListener(input);
+
+        for (int i = 0; i < 10; i++) {
+
+            handler.addObject(new Block(10 + (i * 32), Game.Height -160, 32, 32, ID.Block));
+
+        }
     }
 
     public void render(Graphics g) {
