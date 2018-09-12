@@ -33,7 +33,7 @@ public class HelloRESTController {
     public Greeting greetmeowner() {
         return new Greeting(atomicLong.getAndIncrement(), "Hello Alex");
     }
-    
+
     @ApiOperation("Gets the user with specific ID")
     @ApiResponses(value = {@ApiResponse(code = 200, message = "OK", response = Greeting.class)})
     @GetMapping("/greetmeuser/{name}")
