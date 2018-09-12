@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Step Two: Say Hello for the World in different languages</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h2>Saying Hello in different languages of the World</h2>
+<p th:text="${hello} + ' ' + ${name} + '!'"/>
+<p th:text="'And this is the number of refreshes: ' + ${count} + '.'"/>
+
+</body>
+</html>
