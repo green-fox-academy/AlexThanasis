@@ -71,12 +71,10 @@ public class Player extends Object {
 
                 if (getBoundsRight().intersects(temp.getBounds())){
                     x = temp.getX() - width;
-                    velX = 0;
                 }
 
                 if (getBoundsLeft().intersects(temp.getBounds())){
                     x = temp.getX() + width;
-                    velX = 0;
                 }
             }
         }
@@ -91,7 +89,7 @@ public class Player extends Object {
     }
 
     @Override
-    public Rectangle getBounds() {return new Rectangle((int)x + 5, (int)y + 5, width - 10, 5); }
+    public Rectangle getBounds() {return new Rectangle((int)x + 5, (int)y + (height - 5), width - 10, 5); }
     public Rectangle getBoundsTop() {return new Rectangle((int)x + 5, (int)y, width - 10, 5);}
     public Rectangle getBoundsLeft() {return new Rectangle((int)x, (int)y + 5, 5, height - 10);}
     public Rectangle getBoundsRight() {return new Rectangle((int)x + (width - 5), (int)y + 5, 5, height - 10);
