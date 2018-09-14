@@ -9,11 +9,12 @@ public class Ball extends Object {
 
     private float defaultX;
     private Handler handler;
+    private int distanceOfShooting = 300;
 
     public Ball(float x, float y, int width, int height, ID id, BufferedImage texture, Handler handler) {
         super(x, y, width, height, id, texture);
         defaultX = x;
-        velX = 1.5f;
+        velX = 15f;
         this.handler = handler;
     }
 
@@ -21,7 +22,7 @@ public class Ball extends Object {
     public void tick() {
         x += velX;
 
-        if (x >= defaultX + 100) {
+        if (x >= defaultX + distanceOfShooting) {
 
             handler.removeObject(this);
         }

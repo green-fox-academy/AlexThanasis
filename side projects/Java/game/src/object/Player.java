@@ -17,6 +17,7 @@ public class Player extends Object {
     public Timer timer;
     public boolean shoot = false;
     public int shootTimer;
+    private int shootRepeatSpeed = 1;
 
     public Player(float x, float y, int width, int height, ID id, BufferedImage texture, Handler handler) {
         super(x, y, width, height, id, texture);
@@ -25,10 +26,10 @@ public class Player extends Object {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if (shootTimer == 0 && shoot == true){
+                if (shoot == true){
                     shootTimer++;
                 }
-                else if(shootTimer == 2){
+                if(shootTimer == shootRepeatSpeed){
                     shoot = false;
                     shootTimer = 0;
                 }
