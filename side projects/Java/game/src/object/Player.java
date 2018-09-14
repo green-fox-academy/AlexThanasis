@@ -3,7 +3,10 @@ package object;
 import game.Handler;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
+import javax.swing.Timer;
 
 public class Player extends Object {
 
@@ -11,10 +14,28 @@ public class Player extends Object {
     private float maxSpeed = 10.0f;
     private boolean falling, jumping;
     private Handler handler;
+    public Timer timer;
+    public boolean shoot = false;
+    public int shootTimer;
 
     public Player(float x, float y, int width, int height, ID id, BufferedImage texture, Handler handler) {
         super(x, y, width, height, id, texture);
         this.handler = handler;
+        timer = new Timer(1000, new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if (shootTimer == 0 && shoot == true){
+                    shootTimer++;
+                }
+                else if(shootTimer == 2){
+                    shoot = false;
+                    shootTimer = 0;
+                }
+            }
+        });
+
+        timer.start();
     }
 
     public void setJumping(boolean jumping) {
