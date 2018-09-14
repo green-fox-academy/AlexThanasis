@@ -1,11 +1,12 @@
 package object;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Block extends Object {
 
-    public Block(float x, float y, int width, int height, ID id) {
-        super(x, y, width, height, id);
+    public Block(float x, float y, int width, int height, ID id, BufferedImage texture) {
+        super(x, y, width, height, id, texture);
     }
 
     @Override
@@ -16,8 +17,7 @@ public class Block extends Object {
     @Override
     public void render(Graphics g) {
 
-        g.setColor(Color.red);
-        g.drawRect((int)x, (int)y, width, height);
+       g.drawImage(texture, (int)x, (int)y, width, height, null);
     }
 
     @Override

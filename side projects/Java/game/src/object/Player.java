@@ -3,6 +3,7 @@ package object;
 import game.Handler;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Player extends Object {
 
@@ -11,8 +12,8 @@ public class Player extends Object {
     private boolean falling, jumping;
     private Handler handler;
 
-    public Player(float x, float y, int width, int height, ID id, Handler handler) {
-        super(x, y, width, height, id);
+    public Player(float x, float y, int width, int height, ID id, BufferedImage texture, Handler handler) {
+        super(x, y, width, height, id, texture);
         this.handler = handler;
     }
 
@@ -83,8 +84,7 @@ public class Player extends Object {
     @Override
     public void render(Graphics g) {
 
-        g.setColor(Color.black);
-        g.fillRect((int)x, (int)y, width, height);
+       g.drawImage(texture, (int)x, (int)y, width, height, null);
 
     }
 

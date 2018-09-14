@@ -8,8 +8,13 @@ public class Assets {
 
     public Assets() {
 
-        SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/textures/spritesheet.png"));
-        player = sheet.out(0, 0, 32, 32);
-        block = sheet.out(32, 0, 32, 32);
+        try {
+            SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/spritesheet.png"));
+            player = sheet.out(0, 0, 32, 32);
+            block = sheet.out(32, 0, 32, 32);
+        }
+        catch(Exception e){
+            System.out.println("assets cannot be loaded!");
+        }
     }
 }

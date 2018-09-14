@@ -9,15 +9,16 @@ public abstract class Object {
     protected int width, height;
     protected ID id;
     protected float velX, velY;
-    //protected BufferedImage texture;
+    protected BufferedImage texture;
 
 
-    public Object(float x, float y, int width, int height, ID id) {
+    public Object(float x, float y, int width, int height, ID id, BufferedImage texture) {
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
         this.id = id;
+        this.texture = texture;
     }
 
     public float getVelX() {
@@ -74,6 +75,14 @@ public abstract class Object {
 
     public void setId(ID id) {
         this.id = id;
+    }
+
+    public BufferedImage getTexture() {
+        return texture;
+    }
+
+    public void setTexture(BufferedImage texture) {
+        this.texture = texture;
     }
 
     public abstract void tick();
