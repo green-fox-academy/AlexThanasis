@@ -1,6 +1,7 @@
 package input;
 
 import game.Handler;
+import object.Ball;
 import object.ID;
 import object.Object;
 import object.Player;
@@ -33,6 +34,11 @@ public class KeyInput extends KeyAdapter {
                 }
                 if (key == KeyEvent.VK_A) {player.setVelX(-3); keyDown[0] = true;}
                 if (key == KeyEvent.VK_D) {player.setVelX(3); keyDown[1] = true;}
+                if (key == KeyEvent.VK_SPACE){if (player.shoot == false){
+                    player.shoot = true;
+                    player.shootTimer = 0;
+                    handler.addObject(new Ball((int)player.getX(), (int)player.getY(), 16, 16, null, handler ));
+                }}
             }
         }
     }

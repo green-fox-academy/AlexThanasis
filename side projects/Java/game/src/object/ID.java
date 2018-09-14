@@ -6,6 +6,7 @@ public enum ID {
     Block(),
     Item(),
     Enemy(),
-    Coin();
-
+    Coin(),
+    Ball();
+    
 }
