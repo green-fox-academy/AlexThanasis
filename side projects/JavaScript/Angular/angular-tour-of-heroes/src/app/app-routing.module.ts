@@ -4,7 +4,7 @@ import {HeroesComponent}        from './heroes/heroes.component';
 
 const route: Routes = [
   { path: 'heroes', component: HeroesComponent}
-];
+]; 
 
 @NgModule({
   exports: [ RouterModule ]
