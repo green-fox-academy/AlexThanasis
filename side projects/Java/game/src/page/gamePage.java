@@ -5,6 +5,7 @@ import game.Handler;
 import gfx.Assets;
 import input.KeyInput;
 import object.Block;
+import object.Enemy;
 import object.ID;
 import object.Player;
 
@@ -27,6 +28,7 @@ public class gamePage extends Page {
 
         handler.addObject(new Block(42, Game.Height - 192, 32, 32, ID.Block, Assets.block));
         handler.addObject(new Block(10 + 5 * 32, Game.Height - 256, 32, 32, ID.Block, Assets.block));
+        handler.addObject(new Enemy(50, Game.Height - 192, 32, 32, ID.Enemy, Assets.enemy, handler));
         for (int i = 0; i < 10; i++) {
 
             handler.addObject(new Block(10 + (i * 32), Game.Height -160, 32, 32, ID.Block, Assets.block));
