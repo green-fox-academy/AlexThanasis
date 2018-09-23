@@ -12,7 +12,7 @@ public class Enemy extends Object {
     public Enemy(float x, float y, int width, int height, ID id, BufferedImage texture, Handler handler ) {
         super(x, y, width, height, id, texture);
         this.handler = handler;
-        velX = -3.5f;
+        velX = -0.5f;
     }
 
     @Override
@@ -47,8 +47,13 @@ public class Enemy extends Object {
 
             if(tempObj.getId() == ID.Ball){
 
-                handler.removeObject(this);
+                Ball ball = (Ball) tempObj;
 
+                if (getBounds().intersects(ball.getBounds())) {
+
+                    handler.removeObject(this);
+
+                }
             }
         }
     }
